@@ -1,0 +1,332 @@
+{
+  "modulos": [
+    {
+      "id": "magnetismo",
+      "titulo": "Magnetismo",
+      "descricao": "Conceitos fundamentais de magnetismo, propriedades dos ímãs e interação magnética",
+      "pares": [
+        {
+          "id": "mag_par_001",
+          "tipo_par": "termo_simbolo",
+          "carta_a": {
+            "tipo_conteudo": "texto",
+            "conteudo": "Densidade de campo magnético"
+          },
+          "carta_b": {
+            "tipo_conteudo": "texto",
+            "conteudo": "B"
+          },
+          "explicacao_pos_acerto": "A letra B é o símbolo utilizado para representar a densidade de campo magnético (ou indução magnética), cuja unidade no Sistema Internacional é o Tesla (T).",
+          "dificuldade": "facil",
+          "fonte": "CEFET/SC, Parte I, Seção 3 / UFRGS, Cap. 1, Seção 3"
+        },
+        {
+          "id": "mag_par_002",
+          "tipo_par": "conceito_definicao",
+          "carta_a": {
+            "tipo_conteudo": "texto",
+            "conteudo": "Inseparabilidade dos polos"
+          },
+          "carta_b": {
+            "tipo_conteudo": "texto",
+            "conteudo": "Impossibilidade de isolar um polo magnético único ao dividir um ímã."
+          },
+          "explicacao_pos_acerto": "Na natureza, não foram encontrados monopolos magnéticos. Ao quebrar um ímã ao meio, cada metade se reorganiza e forma um novo ímã completo, contendo obrigatoriamente um polo Norte e um polo Sul.",
+          "dificuldade": "facil",
+          "fonte": "UFRGS, Cap. 1, Seção 2.4 / CEFET/SC, Parte I, Seção 2.1"
+        },
+        {
+          "id": "mag_par_003",
+          "tipo_par": "fenomeno_aplicacao",
+          "carta_a": {
+            "tipo_conteudo": "texto",
+            "conteudo": "Histerese magnética"
+          },
+          "carta_b": {
+            "tipo_conteudo": "texto",
+            "conteudo": "Armazenamento de informações em discos rígidos (HD)."
+          },
+          "explicacao_pos_acerto": "A histerese é a capacidade de um material ferromagnético permanecer magnetizado mesmo após a retirada do campo externo. Essa magnetização residual permite gravar bits de forma duradoura.",
+          "dificuldade": "medio",
+          "fonte": "UFRGS, Cap. 5, Seção 2.2 / CEFET/SC, Parte II, Seção 14"
+        },
+        {
+          "id": "mag_par_004",
+          "tipo_par": "conceito_formula",
+          "carta_a": {
+            "tipo_conteudo": "texto",
+            "conteudo": "Força magnética sobre carga em movimento"
+          },
+          "carta_b": {
+            "tipo_conteudo": "formula",
+            "conteudo": "F = |q|·v·B·sen(θ)"
+          },
+          "explicacao_pos_acerto": "A força magnética sobre uma partícula depende de sua carga (q), velocidade (v), do campo magnético (B) e do ângulo (θ) entre o movimento e as linhas de campo.",
+          "dificuldade": "dificil",
+          "fonte": "UFRGS, Cap. 3, Seção 1.3 / CEFET/SC, Parte II, Seção 5.1"
+        },
+        {
+          "id": "mag_par_005",
+          "tipo_par": "conceito_definicao",
+          "carta_a": {
+            "tipo_conteudo": "texto",
+            "conteudo": "Materiais Ferromagnéticos"
+          },
+          "carta_b": {
+            "tipo_conteudo": "texto",
+            "conteudo": "Substâncias cujos domínios se alinham fortemente a favor do campo externo."
+          },
+          "explicacao_pos_acerto": "Materiais como ferro doce, níquel e cobalto possuem alta suscetibilidade magnética e são fortemente atraídos por ímãs, diferentemente dos paramagnéticos e diamagnéticos.",
+          "dificuldade": "medio",
+          "fonte": "UFRGS, Cap. 5, Seção 2.2 / CEFET/SC, Parte I, Seção 5.1"
+        }
+      ]
+    },
+    {
+      "id": "eletrodinamica",
+      "titulo": "Eletrodinâmica",
+      "descricao": "Corrente elétrica, campos gerados por correntes, força em fios e indução",
+      "pares": [
+        {
+          "id": "eld_par_001",
+          "tipo_par": "fenomeno_aplicacao",
+          "carta_a": {
+            "tipo_conteudo": "texto",
+            "conteudo": "Indução Eletromagnética (Lei de Faraday)"
+          },
+          "carta_b": {
+            "tipo_conteudo": "texto",
+            "conteudo": "Geradores de usinas hidrelétricas."
+          },
+          "explicacao_pos_acerto": "A variação do fluxo magnético através das espiras da turbina induz uma força eletromotriz, convertendo energia mecânica da água em energia elétrica.",
+          "dificuldade": "medio",
+          "fonte": "UFRGS, Cap. 6, Seção 5 / CEFET/SC, Parte II, Seção 7"
+        },
+        {
+          "id": "eld_par_002",
+          "tipo_par": "conceito_formula",
+          "carta_a": {
+            "tipo_conteudo": "texto",
+            "conteudo": "Força magnética sobre fio retilíneo"
+          },
+          "carta_b": {
+            "tipo_conteudo": "formula",
+            "conteudo": "F = B·I·L·sen(θ)"
+          },
+          "explicacao_pos_acerto": "Um condutor percorrido por corrente (I) imerso num campo magnético (B) sofre uma força proporcional ao seu comprimento (L) ativo e ao ângulo de inclinação.",
+          "dificuldade": "dificil",
+          "fonte": "CEFET/SC, Parte II, Seção 5.1"
+        },
+        {
+          "id": "eld_par_003",
+          "tipo_par": "termo_simbolo",
+          "carta_a": {
+            "tipo_conteudo": "texto",
+            "conteudo": "Fluxo Magnético"
+          },
+          "carta_b": {
+            "tipo_conteudo": "texto",
+            "conteudo": "φ (Phi)"
+          },
+          "explicacao_pos_acerto": "A letra grega φ (Phi) representa o fluxo magnético, que quantifica o conjunto de linhas de campo que atravessam perpendicularmente uma área (medido em Weber).",
+          "dificuldade": "facil",
+          "fonte": "CEFET/SC, Parte I, Seção 3.1"
+        },
+        {
+          "id": "eld_par_004",
+          "tipo_par": "conceito_definicao",
+          "carta_a": {
+            "tipo_conteudo": "texto",
+            "conteudo": "Lei de Lenz"
+          },
+          "carta_b": {
+            "tipo_conteudo": "texto",
+            "conteudo": "A corrente induzida opõe-se à variação do fluxo que a originou."
+          },
+          "explicacao_pos_acerto": "Baseada na conservação de energia, a Lei de Lenz dita o sentido da corrente induzida: ela cria um campo magnético que tenta anular a mudança inicial.",
+          "dificuldade": "medio",
+          "fonte": "UFRGS, Cap. 6, Seção 4"
+        },
+        {
+          "id": "eld_par_005",
+          "tipo_par": "conceito_definicao",
+          "carta_a": {
+            "tipo_conteudo": "texto",
+            "conteudo": "Relutância Magnética"
+          },
+          "carta_b": {
+            "tipo_conteudo": "texto",
+            "conteudo": "Oposição oferecida pelo meio ao estabelecimento das linhas de fluxo."
+          },
+          "explicacao_pos_acerto": "Análoga à resistência elétrica, a relutância mede a dificuldade do fluxo magnético passar. Materiais como ferro doce possuem baixa relutância, facilitando o fluxo.",
+          "dificuldade": "dificil",
+          "fonte": "CEFET/SC, Parte I, Seção 7"
+        }
+      ]
+    },
+    {
+      "id": "eletrostatica",
+      "titulo": "Eletrostática",
+      "descricao": "Cargas elétricas em repouso e as características do campo elétrico",
+      "pares": [
+        {
+          "id": "ele_par_001",
+          "tipo_par": "conceito_definicao",
+          "carta_a": {
+            "tipo_conteudo": "texto",
+            "conteudo": "Monopolo Elétrico"
+          },
+          "carta_b": {
+            "tipo_conteudo": "texto",
+            "conteudo": "Existência isolada de carga positiva (próton) ou negativa (elétron)."
+          },
+          "explicacao_pos_acerto": "Ao contrário dos polos magnéticos que são inseparáveis, na eletrostática é perfeitamente possível isolar cargas elétricas individuais.",
+          "dificuldade": "facil",
+          "fonte": "UFRGS, Cap. 1, Seção 2.4"
+        },
+        {
+          "id": "ele_par_002",
+          "tipo_par": "fenomeno_aplicacao",
+          "carta_a": {
+            "tipo_conteudo": "texto",
+            "conteudo": "Linhas de campo elétrico"
+          },
+          "carta_b": {
+            "tipo_conteudo": "texto",
+            "conteudo": "Divergem das cargas positivas e convergem para as negativas."
+          },
+          "explicacao_pos_acerto": "Diferente das linhas magnéticas que são fechadas, as linhas de campo elétrico formam caminhos abertos que começam na carga positiva e terminam na negativa.",
+          "dificuldade": "facil",
+          "fonte": "UFRGS, Cap. 1, Seção 3.1"
+        },
+        {
+          "id": "ele_par_003",
+          "tipo_par": "conceito_formula",
+          "carta_a": {
+            "tipo_conteudo": "texto",
+            "conteudo": "Lei de Coulomb (Força Elétrica)"
+          },
+          "carta_b": {
+            "tipo_conteudo": "formula",
+            "conteudo": "F = k·|q1|·|q2| / d²"
+          },
+          "explicacao_pos_acerto": "A força de atração ou repulsão entre duas cargas paradas depende da constante do meio, do valor das cargas e é inversamente proporcional ao quadrado da distância.",
+          "dificuldade": "dificil",
+          "fonte": "Conhecimento Externo associado a Eletrostática"
+        },
+        {
+          "id": "ele_par_004",
+          "tipo_par": "termo_simbolo",
+          "carta_a": {
+            "tipo_conteudo": "texto",
+            "conteudo": "Intensidade do Campo Elétrico"
+          },
+          "carta_b": {
+            "tipo_conteudo": "texto",
+            "conteudo": "E"
+          },
+          "explicacao_pos_acerto": "O campo elétrico é representado pelo vetor E. Na eletrostática, a força exercida sobre uma carga de prova é dada por F = q·E.",
+          "dificuldade": "facil",
+          "fonte": "Conhecimento Externo associado a Eletrostática"
+        },
+        {
+          "id": "ele_par_005",
+          "tipo_par": "conceito_definicao",
+          "carta_a": {
+            "tipo_conteudo": "texto",
+            "conteudo": "Carga perfeitamente em repouso"
+          },
+          "carta_b": {
+            "tipo_conteudo": "texto",
+            "conteudo": "Sofre força elétrica, mas não sofre força magnética."
+          },
+          "explicacao_pos_acerto": "Para que atue força magnética sobre uma carga (F = q·v·B·senθ), ela precisa ter velocidade (v > 0). Parada, ela só sentirá a atração/repulsão de campos elétricos.",
+          "dificuldade": "medio",
+          "fonte": "UFRGS, Cap. 3, Seção 1"
+        }
+      ]
+    },
+    {
+      "id": "ondas-eletromagneticas",
+      "titulo": "Ondas Eletromagnéticas",
+      "descricao": "Características e propagação de ondas eletromagnéticas",
+      "pares": [
+        {
+          "id": "ond_par_001",
+          "tipo_par": "conceito_definicao",
+          "carta_a": {
+            "tipo_conteudo": "texto",
+            "conteudo": "Onda Eletromagnética"
+          },
+          "carta_b": {
+            "tipo_conteudo": "texto",
+            "conteudo": "Oscilação acoplada de campos elétrico e magnético no espaço."
+          },
+          "explicacao_pos_acerto": "James C. Maxwell provou que um campo elétrico variante gera um magnético variante, sustentando uma perturbação dupla que viaja pelo espaço.",
+          "dificuldade": "facil",
+          "fonte": "CEFET/SC, Parte II, Seção 13"
+        },
+        {
+          "id": "ond_par_002",
+          "tipo_par": "fenomeno_aplicacao",
+          "carta_a": {
+            "tipo_conteudo": "texto",
+            "conteudo": "Espectro Eletromagnético"
+          },
+          "carta_b": {
+            "tipo_conteudo": "texto",
+            "conteudo": "Luz visível, micro-ondas, raios-X e sinais de TV."
+          },
+          "explicacao_pos_acerto": "Todos esses fenômenos são exatamente a mesma coisa (ondas eletromagnéticas). O que muda de um para o outro é apenas o tamanho da onda (comprimento) e a sua frequência.",
+          "dificuldade": "medio",
+          "fonte": "CEFET/SC, Parte II, Seção 13 / Conhecimento Externo"
+        },
+        {
+          "id": "ond_par_003",
+          "tipo_par": "conceito_definicao",
+          "carta_a": {
+            "tipo_conteudo": "texto",
+            "conteudo": "Propagação no Vácuo"
+          },
+          "carta_b": {
+            "tipo_conteudo": "texto",
+            "conteudo": "Característica de não precisar de um meio material para viajar."
+          },
+          "explicacao_pos_acerto": "Diferente do som (onda mecânica), a onda eletromagnética não precisa de ar ou água, conseguindo viajar na ausência de matéria (vácuo) à velocidade da luz.",
+          "dificuldade": "facil",
+          "fonte": "CEFET/SC, Parte II, Seção 13"
+        },
+        {
+          "id": "ond_par_004",
+          "tipo_par": "conceito_formula",
+          "carta_a": {
+            "tipo_conteudo": "texto",
+            "conteudo": "Velocidade da Onda Eletromagnética"
+          },
+          "carta_b": {
+            "tipo_conteudo": "formula",
+            "conteudo": "c = λ·f"
+          },
+          "explicacao_pos_acerto": "A velocidade da luz e de todas as ondas eletromagnéticas (c) é definida pela multiplicação do seu comprimento de onda (λ) pela sua frequência (f).",
+          "dificuldade": "medio",
+          "fonte": "Conhecimento Externo associado a Ondas EM"
+        },
+        {
+          "id": "ond_par_005",
+          "tipo_par": "conceito_formula",
+          "carta_a": {
+            "tipo_conteudo": "texto",
+            "conteudo": "Relação de Maxwell entre os campos na onda"
+          },
+          "carta_b": {
+            "tipo_conteudo": "formula",
+            "conteudo": "E = c·B"
+          },
+          "explicacao_pos_acerto": "Em uma onda eletromagnética, a intensidade do componente de campo elétrico (E) e a intensidade do magnético (B) estão sempre conectadas pelo valor colossal da velocidade da luz (c).",
+          "dificuldade": "dificil",
+          "fonte": "Conhecimento Externo / Teoria de Maxwell"
+        }
+      ]
+    }
+  ]
+}

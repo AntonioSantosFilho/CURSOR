@@ -1,0 +1,572 @@
+{
+  "modulos": [
+    {
+      "id": "magnetismo",
+      "titulo": "Magnetismo",
+      "descricao": "Conceitos fundamentais de magnetismo, propriedades dos ímãs e interação magnética",
+      "questoes": [
+        {
+          "id": "mag_q_001",
+          "tipo": "multipla_escolha",
+          "enunciado": "Se quebrarmos um ímã permanente em forma de barra exatamente ao meio, o que acontecerá com os pedaços resultantes?",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "O polo norte ficará isolado em uma metade e o polo sul na outra."
+            },
+            {
+              "letra": "B",
+              "texto": "Obteremos dois novos ímãs completos, cada um contendo um polo norte e um polo sul."
+            },
+            {
+              "letra": "C",
+              "texto": "Os pedaços perderão suas propriedades magnéticas."
+            },
+            {
+              "letra": "D",
+              "texto": "Ambos os pedaços se tornarão monopolos repelentes."
+            }
+          ],
+          "resposta_correta": "B",
+          "explicacao": "Segundo a propriedade da inseparabilidade dos polos, ao dividir um ímã, não é possível isolar um polo. Os novos pedaços também se comportarão como ímãs completos com polos Norte e Sul.",
+          "dificuldade": "facil",
+          "fonte": "UFRGS, Cap. 1, Seção 2.4 / CEFET/SC, Parte I, Seção 2.1"
+        },
+        {
+          "id": "mag_q_002",
+          "tipo": "multipla_escolha",
+          "enunciado": "Quando usamos uma bússola, a extremidade norte da sua agulha imantada aponta para a região próxima ao norte geográfico da Terra. Fisicamente, isso ocorre porque:",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "O norte geográfico coincide com o polo norte magnético da Terra, causando atração."
+            },
+            {
+              "letra": "B",
+              "texto": "O eixo de rotação da Terra atrai as linhas de campo magnético."
+            },
+            {
+              "letra": "C",
+              "texto": "Próximo ao polo norte geográfico terrestre encontra-se o polo sul magnético da Terra, que atrai o polo norte da agulha."
+            },
+            {
+              "letra": "D",
+              "texto": "A gravidade terrestre polariza a agulha de metais pesados."
+            }
+          ],
+          "resposta_correta": "C",
+          "explicacao": "A Terra se comporta como um grande ímã. Como polos opostos se atraem, o polo Norte da bússola é atraído para o polo Sul magnético da Terra (próximo ao norte geográfico).",
+          "dificuldade": "facil",
+          "fonte": "UFRGS, Cap. 1, Seção 5"
+        },
+        {
+          "id": "mag_q_003",
+          "tipo": "multipla_escolha",
+          "enunciado": "Como se comportam os materiais classificados como diamagnéticos (ex: cobre, prata ou bismuto) na presença de um campo magnético?",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "Seus domínios se alinham no mesmo sentido do campo, sendo fortemente atraídos."
+            },
+            {
+              "letra": "B",
+              "texto": "Eles geram forte atração magnética, amplificando as linhas de campo."
+            },
+            {
+              "letra": "C",
+              "texto": "Seus átomos sofrem pouca influência e criam uma fraca magnetização oposta ao campo, gerando repulsão."
+            },
+            {
+              "letra": "D",
+              "texto": "Eles não sofrem absolutamente nenhuma interação magnética."
+            }
+          ],
+          "resposta_correta": "C",
+          "explicacao": "Materiais diamagnéticos têm suscetibilidade negativa. Quando expostos a um campo externo, gera-se uma fraca repulsão entre o material e o ímã.",
+          "dificuldade": "medio",
+          "fonte": "UFRGS, Cap. 5, Seção 2.3 / CEFET/SC, Parte I, Seção 5.3"
+        },
+        {
+          "id": "mag_q_004",
+          "tipo": "multipla_escolha",
+          "enunciado": "O que ocorre com um material ferromagnético (como o ferro doce) se o aquecermos até ultrapassar o seu 'Ponto de Curie'?",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "Sua suscetibilidade magnética atinge o pico, tornando-o um superímã."
+            },
+            {
+              "letra": "B",
+              "texto": "O material torna-se um supercondutor elétrico ideal."
+            },
+            {
+              "letra": "C",
+              "texto": "A agitação térmica destrói o alinhamento dos domínios, e ele perde suas características ferromagnéticas, tornando-se paramagnético."
+            },
+            {
+              "letra": "D",
+              "texto": "Ele passa a repelir o campo magnético externo fortemente."
+            }
+          ],
+          "resposta_correta": "C",
+          "explicacao": "Acima do Ponto de Curie, a agitação térmica vence o acoplamento dos domínios magnéticos. O material perde a forte imantação natural e se torna paramagnético.",
+          "dificuldade": "medio",
+          "fonte": "UFRGS, Cap. 5, Seção 2.2"
+        },
+        {
+          "id": "mag_q_005",
+          "tipo": "multipla_escolha",
+          "enunciado": "A blindagem magnética protege instrumentos sensíveis de campos externos. Qual material é tipicamente utilizado na carcaça de blindagem e por quê?",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "Vidro, pois atua como isolante perfeito de linhas magnéticas."
+            },
+            {
+              "letra": "B",
+              "texto": "Cobre (diamagnético), pois reflete ativamente o fluxo."
+            },
+            {
+              "letra": "C",
+              "texto": "Ferro doce (ferromagnético), pois oferece um caminho de baixíssima relutância que concentra e escoa o fluxo pelas paredes, protegendo o interior."
+            },
+            {
+              "letra": "D",
+              "texto": "Alumínio, devido a sua capacidade de resfriar o ambiente magnético."
+            }
+          ],
+          "resposta_correta": "C",
+          "explicacao": "Materiais ferromagnéticos conduzem as linhas de campo muito melhor que o ar. A carcaça metálica de ferro atrai e conduz o fluxo magnético ao redor do espaço protegido, realizando a blindagem.",
+          "dificuldade": "dificil",
+          "fonte": "CEFET/SC, Parte I, Seção 6"
+        }
+      ]
+    },
+    {
+      "id": "eletrodinamica",
+      "titulo": "Eletrodinâmica",
+      "descricao": "Corrente elétrica, campos gerados por correntes, força magnética em fios e indução eletromagnética",
+      "questoes": [
+        {
+          "id": "eld_q_001",
+          "tipo": "multipla_escolha",
+          "enunciado": "A experiência de Oersted (1820) demonstrou na prática uma relação vital do eletromagnetismo. O que foi provado?",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "Que a luz possui natureza corpuscular e magnética."
+            },
+            {
+              "letra": "B",
+              "texto": "Que a corrente elétrica fluindo em um fio condutor é capaz de gerar um campo magnético, desviando a agulha de uma bússola."
+            },
+            {
+              "letra": "C",
+              "texto": "Que ímãs perdem a força se mergulhados em água."
+            },
+            {
+              "letra": "D",
+              "texto": "Que cargas estáticas podem induzir corrente elétrica num circuito próximo."
+            }
+          ],
+          "resposta_correta": "B",
+          "explicacao": "Oersted demonstrou que a eletricidade em movimento (corrente) gera um campo magnético ao seu redor, conectando eletricidade e magnetismo.",
+          "dificuldade": "facil",
+          "fonte": "UFRGS, Cap. 2, Seção 1 / CEFET/SC, Parte II, Seção 1"
+        },
+        {
+          "id": "eld_q_002",
+          "tipo": "multipla_escolha",
+          "enunciado": "Quando dois fios condutores longos e paralelos são percorridos por correntes elétricas no mesmo sentido, o que se observa na interação entre eles?",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "Eles não exercem força um sobre o outro."
+            },
+            {
+              "letra": "B",
+              "texto": "Surge entre eles uma força magnética repulsiva."
+            },
+            {
+              "letra": "C",
+              "texto": "Surge entre eles uma força magnética atrativa."
+            },
+            {
+              "letra": "D",
+              "texto": "Um campo elétrico os desvia ortogonalmente."
+            }
+          ],
+          "resposta_correta": "C",
+          "explicacao": "Devido à interação dos campos magnéticos gerados (Regra da mão direita espalmada), correntes de mesmo sentido sofrem força magnética atrativa.",
+          "dificuldade": "medio",
+          "fonte": "UFRGS, Cap. 4, Seção 3 / CEFET/SC, Parte II, Seção 5.3"
+        },
+        {
+          "id": "eld_q_003",
+          "tipo": "multipla_escolha",
+          "enunciado": "A Lei da Indução de Faraday é o princípio por trás dos geradores elétricos. O que é essencial para induzir tensão numa espira?",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "O condutor deve estar estático num campo elétrico denso."
+            },
+            {
+              "letra": "B",
+              "texto": "O fluxo magnético através da área da espira deve variar ao longo do tempo."
+            },
+            {
+              "letra": "C",
+              "texto": "O campo magnético deve permanecer inalterado e constante."
+            },
+            {
+              "letra": "D",
+              "texto": "A espira precisa ser feita exclusivamente de material isolante."
+            }
+          ],
+          "resposta_correta": "B",
+          "explicacao": "A indução eletromagnética requer movimento ou mudança. É preciso que o fluxo magnético varie no tempo (Δφ/Δt) para que a tensão seja induzida.",
+          "dificuldade": "facil",
+          "fonte": "UFRGS, Cap. 6, Seção 3 / CEFET/SC, Parte II, Seção 7"
+        },
+        {
+          "id": "eld_q_004",
+          "tipo": "multipla_escolha",
+          "enunciado": "A Lei de Lenz determina o sentido da corrente induzida em um condutor. O que essa lei afirma?",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "A corrente induzida reforça o fluxo magnético inicial."
+            },
+            {
+              "letra": "B",
+              "texto": "A corrente flui em um sentido tal que o seu próprio campo magnético se opõe à variação do fluxo que a originou."
+            },
+            {
+              "letra": "C",
+              "texto": "O sentido depende inteiramente do material do condutor, ignorando o ímã."
+            },
+            {
+              "letra": "D",
+              "texto": "A corrente gerada será sempre paralela à velocidade da variação."
+            }
+          ],
+          "resposta_correta": "B",
+          "explicacao": "Como consequência da conservação de energia, a Lei de Lenz estabelece que o efeito induzido sempre reage para se opor à sua causa primária.",
+          "dificuldade": "medio",
+          "fonte": "UFRGS, Cap. 6, Seção 4"
+        },
+        {
+          "id": "eld_q_005",
+          "tipo": "calculo",
+          "enunciado": "Calcule a intensidade do campo magnético indutor (H) no centro de um solenoide de 10 cm (0,1 m) de comprimento, formado por 600 espiras e percorrido por uma corrente de 2 A.",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "1.200 Ae/m"
+            },
+            {
+              "letra": "B",
+              "texto": "6.000 Ae/m"
+            },
+            {
+              "letra": "C",
+              "texto": "12.000 Ae/m"
+            },
+            {
+              "letra": "D",
+              "texto": "24.000 Ae/m"
+            }
+          ],
+          "resposta_correta": "C",
+          "explicacao": "A fórmula do Campo Magnético Indutor em um solenoide é H = (N·I) / L. Substituindo: H = (600 · 2) / 0,1. Multiplicando: H = 1200 / 0,1 = 12.000 Ae/m.",
+          "dificuldade": "difícil",
+          "fonte": "CEFET/SC, Parte II, Problemas Propostos (P20)"
+        }
+      ]
+    },
+    {
+      "id": "eletrostatica",
+      "titulo": "Eletrostática",
+      "descricao": "Cargas elétricas e características do campo elétrico",
+      "questoes": [
+        {
+          "id": "ele_q_001",
+          "tipo": "multipla_escolha",
+          "enunciado": "Uma diferença clássica entre o eletromagnetismo e a eletrostática está na representação das linhas de campo. Sobre as linhas de campo elétrico produzidas por cargas isoladas, é correto afirmar que:",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "Elas saem da carga positiva e chegam na carga negativa, formando linhas abertas quando as cargas estão isoladas."
+            },
+            {
+              "letra": "B",
+              "texto": "Elas são sempre linhas perfeitamente fechadas em si mesmas, como no ímã."
+            },
+            {
+              "letra": "C",
+              "texto": "Elas saem do polo norte da carga e entram no polo sul atômico."
+            },
+            {
+              "letra": "D",
+              "texto": "Elas só existem se houver movimento (velocidade constante) da partícula."
+            }
+          ],
+          "resposta_correta": "A",
+          "explicacao": "Ao contrário do campo magnético, que forma linhas fechadas, as linhas de campo elétrico divergem a partir de cargas positivas (fontes) e convergem para as cargas negativas (sumidouros).",
+          "dificuldade": "facil",
+          "fonte": "UFRGS, Cap. 1, Seção 3.1"
+        },
+        {
+          "id": "ele_q_002",
+          "tipo": "multipla_escolha",
+          "enunciado": "A principal diferença estrutural na base da teoria entre campo elétrico e campo magnético reside na existência de monopolos. Qual é essa diferença?",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "É possível isolar perfeitamente uma carga elétrica (monopolo elétrico), mas na natureza nunca foi encontrado um monopolo magnético isolado."
+            },
+            {
+              "letra": "B",
+              "texto": "Monopolos magnéticos abundam na natureza, enquanto as cargas elétricas só existem acopladas (+ e -)."
+            },
+            {
+              "letra": "C",
+              "texto": "Ambos, magnético e elétrico, possuem monopolos perfeitamente isoláveis no vácuo."
+            },
+            {
+              "letra": "D",
+              "texto": "A carga elétrica não possui polaridade, enquanto o magnetismo possui."
+            }
+          ],
+          "resposta_correta": "A",
+          "explicacao": "A natureza permite que elétrons (carga negativa) ou prótons (carga positiva) existam individualmente (monopolos elétricos), mas não permite a separação dos polos Norte e Sul de um ímã.",
+          "dificuldade": "facil",
+          "fonte": "UFRGS, Cap. 1, Seção 2.4 / CEFET/SC, Parte I"
+        },
+        {
+          "id": "ele_q_003",
+          "tipo": "multipla_escolha",
+          "enunciado": "Se posicionarmos uma carga elétrica perfeitamente em repouso no meio de uma sala. O que ditará se ela sofrerá força ou não devido a campos invisíveis no local?",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "Se houver apenas campo magnético, ela sofrerá uma força intensa proporcional ao seu repouso."
+            },
+            {
+              "letra": "B",
+              "texto": "Se houver campo elétrico, ela sofrerá força elétrica. Porém, mesmo que haja um forte campo magnético no local, por estar parada (v=0), ela não sofrerá força magnética."
+            },
+            {
+              "letra": "C",
+              "texto": "Ela sofrerá repulsão magnética imediata em direção ao teto, anulando a gravidade."
+            },
+            {
+              "letra": "D",
+              "texto": "A inércia a manterá blindada contra os campos elétricos, mas vulnerável aos magnéticos."
+            }
+          ],
+          "resposta_correta": "B",
+          "explicacao": "Força elétrica (F = q·E) atua sobre cargas mesmo paradas. Já a Força magnética (F = q·v·B·sen(θ)) exige que a carga tenha velocidade (v diferente de zero).",
+          "dificuldade": "medio",
+          "fonte": "UFRGS, Cap. 3, Seção 1 (Analogia das regras de campo)"
+        },
+        {
+          "id": "ele_q_004",
+          "tipo": "calculo",
+          "enunciado": "Uma carga de prova q = 5 μC (5·10⁻⁶ C) é colocada num determinado ponto do espaço e logo fica sujeita a uma força elétrica de 0,2 N. Qual é o módulo do Campo Elétrico (E) naquele ponto? (Lembre-se: E = F / q)",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "20.000 N/C"
+            },
+            {
+              "letra": "B",
+              "texto": "25.000 N/C"
+            },
+            {
+              "letra": "C",
+              "texto": "40.000 N/C"
+            },
+            {
+              "letra": "D",
+              "texto": "1.000.000 N/C"
+            }
+          ],
+          "resposta_correta": "C",
+          "explicacao": "Utilizando a fórmula E = F / q. Substituindo os valores: E = 0,2 / (5·10⁻⁶). Fica E = (0,2 · 10⁶) / 5 = 200.000 / 5 = 40.000 N/C.",
+          "dificuldade": "medio",
+          "fonte": "Conhecimento Externo / Analogia do Material"
+        },
+        {
+          "id": "ele_q_005",
+          "tipo": "calculo",
+          "enunciado": "A força de repulsão entre duas esferas carregadas no vácuo obedece a Lei de Coulomb. Se tivermos q1 = 4 μC, q2 = 5 μC, ambas separadas por uma distância de 0,2 m, qual a intensidade da força elétrica? (k = 9·10⁹ N·m²/C²)",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "4,5 N"
+            },
+            {
+              "letra": "B",
+              "texto": "9,0 N"
+            },
+            {
+              "letra": "C",
+              "texto": "22,5 N"
+            },
+            {
+              "letra": "D",
+              "texto": "45,0 N"
+            }
+          ],
+          "resposta_correta": "A",
+          "explicacao": "Pela Lei de Coulomb: F = (k·q1·q2) / d². O produto é (9·10⁹ · 4·10⁻⁶ · 5·10⁻⁶) = 180·10⁻³ = 0,18. Dividindo por (0,2)² que é 0,04, obtemos F = 0,18 / 0,04 = 4,5 N.",
+          "dificuldade": "dificil",
+          "fonte": "Conhecimento Externo"
+        }
+      ]
+    },
+    {
+      "id": "ondas-eletromagneticas",
+      "titulo": "Ondas Eletromagnéticas",
+      "descricao": "Propagação e características das ondas eletromagnéticas no espaço",
+      "questoes": [
+        {
+          "id": "ond_q_001",
+          "tipo": "multipla_escolha",
+          "enunciado": "Com base nos pilares da teoria consolidada por James Clerk Maxwell, qual a constituição física de uma onda eletromagnética viajando no espaço?",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "Partículas de ar vibrando de forma ultrassônica em alta tensão."
+            },
+            {
+              "letra": "B",
+              "texto": "Apenas um campo magnético estático viajando sozinho pelo vácuo."
+            },
+            {
+              "letra": "C",
+              "texto": "Uma oscilação perfeitamente acoplada de um campo elétrico e de um campo magnético, que se regeneram mutuamente ao variar no tempo."
+            },
+            {
+              "letra": "D",
+              "texto": "Feixes de elétrons orbitais acelerados aleatoriamente."
+            }
+          ],
+          "resposta_correta": "C",
+          "explicacao": "A onda eletromagnética é uma perturbação dupla. Maxwell provou que um campo elétrico variante induz um magnético variante e vice-versa, permitindo que ambos viagem acoplados no espaço.",
+          "dificuldade": "facil",
+          "fonte": "CEFET/SC, Parte II, Seção 13"
+        },
+        {
+          "id": "ond_q_002",
+          "tipo": "multipla_escolha",
+          "enunciado": "As ondas mecânicas, como o som, exigem um meio material (ar, água) para se propagarem. Qual é a exigência para a propagação das ondas eletromagnéticas?",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "Também necessitam de ar ou gases densos para transportar energia."
+            },
+            {
+              "letra": "B",
+              "texto": "Não necessitam de meio material, podendo se propagar livremente pelo vácuo."
+            },
+            {
+              "letra": "C",
+              "texto": "Exigem um plasma interestelar condutor (éter) para evitar que as cargas escapem."
+            },
+            {
+              "letra": "D",
+              "texto": "Só se propagam dentro da atmosfera terrestre devido à blindagem de ozônio."
+            }
+          ],
+          "resposta_correta": "B",
+          "explicacao": "Como os campos elétrico e magnético geram um ao outro em sua oscilação, a onda eletromagnética é autossustentável e viaja através do vácuo absoluto, chegando da luz do Sol à Terra.",
+          "dificuldade": "facil",
+          "fonte": "CEFET/SC, Parte II, Seção 13"
+        },
+        {
+          "id": "ond_q_003",
+          "tipo": "multipla_escolha",
+          "enunciado": "A luz visível, as micro-ondas, os raios-X e as ondas de rádio e TV são fenômenos fundamentalmente diferentes?",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "Sim, são compostas por partículas atômicas distintas em sua natureza."
+            },
+            {
+              "letra": "B",
+              "texto": "Não, todos eles são ondas eletromagnéticas e o que os diferencia fisicamente são os seus comprimentos de onda e frequências (espectro)."
+            },
+            {
+              "letra": "C",
+              "texto": "Sim, a luz é eletromagnética, mas rádio e TV são ondas unicamente sonoras."
+            },
+            {
+              "letra": "D",
+              "texto": "Não há comprovação, pois não é possível medir suas frequências."
+            }
+          ],
+          "resposta_correta": "B",
+          "explicacao": "Todas as radiações citadas são perturbações eletromagnéticas que viajam à velocidade da luz. A única diferença matemática entre elas no espectro eletromagnético é a frequência (ou o comprimento) da onda.",
+          "dificuldade": "medio",
+          "fonte": "Conhecimento Externo / Contexto Geral (CEFET/SC Cap. 13)"
+        },
+        {
+          "id": "ond_q_004",
+          "tipo": "calculo",
+          "enunciado": "Uma emissora de Rádio FM transmite seu sinal na frequência de 100 MHz (10⁸ Hz). Sabendo que as ondas eletromagnéticas se propagam à velocidade da luz no vácuo (c = 3·10⁸ m/s), qual o comprimento dessa onda (λ)? (Use: c = λ·f)",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "1 metro"
+            },
+            {
+              "letra": "B",
+              "texto": "3 metros"
+            },
+            {
+              "letra": "C",
+              "texto": "30 metros"
+            },
+            {
+              "letra": "D",
+              "texto": "300 metros"
+            }
+          ],
+          "resposta_correta": "B",
+          "explicacao": "Isolando a variável na equação: λ = c / f. Substituindo os valores temos λ = (3·10⁸) / (10⁸). As potências de 10 se anulam, sobrando exatamente λ = 3 metros.",
+          "dificuldade": "medio",
+          "fonte": "Conhecimento Externo / Contexto de Ondas EM"
+        },
+        {
+          "id": "ond_q_005",
+          "tipo": "calculo",
+          "enunciado": "A teoria de Maxwell prevê uma relação fixa entre a intensidade do campo elétrico (E) e do campo magnético (B) em uma onda eletromagnética viajando no vácuo: E = c·B. Se uma antena capta o componente magnético da onda num pico de 2 μT (2·10⁻⁶ T), qual a força do componente elétrico (E) local gerado por essa mesma onda? (c = 3·10⁸ m/s)",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "600 V/m"
+            },
+            {
+              "letra": "B",
+              "texto": "6.000 V/m"
+            },
+            {
+              "letra": "C",
+              "texto": "15.000 V/m"
+            },
+            {
+              "letra": "D",
+              "texto": "600.000 V/m"
+            }
+          ],
+          "resposta_correta": "A",
+          "explicacao": "Multiplicando a velocidade pela intensidade do campo B: E = (3·10⁸) · (2·10⁻⁶). As bases e expoentes ficam: 3·2 = 6, e 10^(8 - 6) = 10². Multiplicando tudo temos E = 6 · 100 = 600 V/m.",
+          "dificuldade": "dificil",
+          "fonte": "Conhecimento Externo / Teoria de Maxwell"
+        }
+      ]
+    }
+  ]
+}

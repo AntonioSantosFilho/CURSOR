@@ -1,0 +1,720 @@
+{
+  "conteudos": [
+    {
+      "tema": "Magnetismo",
+      "topico": "Força Magnética sobre uma Carga em Movimento",
+      "conceito": "Quando uma partícula com carga elétrica se move dentro de um campo magnético, ela sofre a ação de uma força magnética. Essa força será máxima se a partícula cruzar as linhas de campo formando um ângulo de 90 graus e nula se viajar paralelamente a elas. O sentido dessa força é dado pela Regra da Mão Esquerda (regra de Fleming).",
+      "formula_legivel": "F = |q|·v·B·sen(θ)",
+      "formula_latex": "F = |q| \\cdot v \\cdot B \\cdot \\text{sen}(\\theta)",
+      "variaveis": [
+        {
+          "simbolo": "F",
+          "significado": "Força magnética resultante na partícula (Newton, N)"
+        },
+        {
+          "simbolo": "q",
+          "significado": "Módulo da carga elétrica (Coulomb, C)"
+        },
+        {
+          "simbolo": "v",
+          "significado": "Velocidade de deslocamento da carga (m/s)"
+        },
+        {
+          "simbolo": "B",
+          "significado": "Densidade de campo magnético (Tesla, T)"
+        },
+        {
+          "simbolo": "θ",
+          "significado": "Ângulo entre a velocidade e as linhas de campo (graus ou radianos)"
+        }
+      ],
+      "nota_pedagogica": "Lembre os alunos de que a força magnética muda apenas a direção do movimento da carga, e não sua rapidez (módulo da velocidade), comportando-se como uma força centrípeta.",
+      "exercicio_resolvido": {
+        "enunciado": "Uma carga de 2 C se move com velocidade de 3 m/s em um campo magnético uniforme de 1,5 T, formando um ângulo de 30° com as linhas de campo. Qual a força magnética sobre ela? (sen(30°) = 0,5)",
+        "passo_a_passo": "1. Identificamos os dados: q = 2 C, v = 3 m/s, B = 1,5 T e sen(30°) = 0,5. \n2. Aplicamos a fórmula F = |q|·v·B·sen(θ). \n3. Substituindo os valores, temos F = 2 · 3 · 1,5 · 0,5. \n4. Multiplicando tudo: 6 · 1,5 · 0,5 = 9 · 0,5 = 4,5 N.",
+        "resolucao_legivel": "F = 2 · 3 · 1,5 · 0,5 => F = 6 · 0,75 => F = 4,5 N",
+        "resolucao_latex": "F = 2 \\cdot 3 \\cdot 1,5 \\cdot 0,5 = 4,5 \\text{ N}",
+        "resposta_final": "4,5 N"
+      },
+      "fonte_externa_necessaria": false,
+      "fonte": "UFRGS, Cap. 3 / CEFET/SC, Parte II, Seção 5.1"
+    },
+    {
+      "tema": "Magnetismo",
+      "topico": "Raio da Trajetória Circular de uma Carga",
+      "conceito": "Se uma partícula carregada entrar num campo magnético perpendicularmente (ângulo de 90°), a força magnética funcionará como uma força centrípeta, obrigando a partícula a descrever uma trajetória circular perfeita. O raio desse círculo depende da massa, da velocidade, da carga da partícula e da força do campo.",
+      "formula_legivel": "R = (m·v) / (|q|·B)",
+      "formula_latex": "R = \\frac{m \\cdot v}{|q| \\cdot B}",
+      "variaveis": [
+        {
+          "simbolo": "R",
+          "significado": "Raio da trajetória circular (metros, m)"
+        },
+        {
+          "simbolo": "m",
+          "significado": "Massa da partícula (quilogramas, kg)"
+        },
+        {
+          "simbolo": "v",
+          "significado": "Velocidade da partícula (m/s)"
+        },
+        {
+          "simbolo": "q",
+          "significado": "Módulo da carga elétrica (Coulomb, C)"
+        },
+        {
+          "simbolo": "B",
+          "significado": "Densidade de campo magnético (Tesla, T)"
+        }
+      ],
+      "nota_pedagogica": "Uma ótima aplicação desse conceito é no espectrômetro de massa, usado para separar isótopos de um elemento com base na diferença de suas massas, que geram raios de curvatura diferentes.",
+      "exercicio_resolvido": {
+        "enunciado": "Um íon de massa 0,001 kg e carga de 2 C entra a 10 m/s perpendicularmente num campo de 5 T. Qual o raio da trajetória circular descrita?",
+        "passo_a_passo": "1. Organize os dados: m = 0,001 kg, q = 2 C, v = 10 m/s, B = 5 T. \n2. Como entra perpendicularmente, a trajetória é circular e a fórmula R = (m·v) / (q·B) é válida. \n3. Substitua: R = (0,001 · 10) / (2 · 5). \n4. Resolva: R = 0,01 / 10 = 0,001 m (ou 1 mm).",
+        "resolucao_legivel": "R = (0,001 · 10) / (2 · 5) => R = 0,01 / 10 => R = 0,001 m",
+        "resolucao_latex": "R = \\frac{0,001 \\cdot 10}{2 \\cdot 5} = \\frac{0,01}{10} = 0,001 \\text{ m}",
+        "resposta_final": "0,001 m"
+      },
+      "fonte_externa_necessaria": false,
+      "fonte": "UFRGS, Cap. 3, Seção 2.1"
+    },
+    {
+      "tema": "Magnetismo",
+      "topico": "Período do Movimento de uma Carga no Campo Magnético",
+      "conceito": "O período é o tempo que uma carga elétrica em movimento circular uniforme leva para dar uma volta completa dentro de um campo magnético. Curiosamente, esse tempo não depende da velocidade da carga. Partículas mais rápidas percorrem trajetórias de raios maiores, mas levam exatamente o mesmo tempo para completar o círculo que partículas mais lentas da mesma massa e carga.",
+      "formula_legivel": "T = (2·π·m) / (|q|·B)",
+      "formula_latex": "T = \\frac{2 \\cdot \\pi \\cdot m}{|q| \\cdot B}",
+      "variaveis": [
+        {
+          "simbolo": "T",
+          "significado": "Período da volta completa (segundos, s)"
+        },
+        {
+          "simbolo": "m",
+          "significado": "Massa da partícula (quilogramas, kg)"
+        },
+        {
+          "simbolo": "q",
+          "significado": "Carga da partícula (Coulomb, C)"
+        },
+        {
+          "simbolo": "B",
+          "significado": "Densidade do campo magnético (Tesla, T)"
+        }
+      ],
+      "nota_pedagogica": "Esta independência do período em relação à velocidade é o princípio de funcionamento do Cíclotron (acelerador de partículas).",
+      "exercicio_resolvido": {
+        "enunciado": "Uma partícula com massa de 4 mg (4·10⁻⁶ kg) e carga de 2 μC (2·10⁻⁶ C) está em movimento circular num campo de 3 T. Calcule o período (adote π = 3).",
+        "passo_a_passo": "1. O período não depende da velocidade: T = (2·π·m) / (q·B). \n2. Substitua os dados: m = 4·10⁻⁶ kg, q = 2·10⁻⁶ C, B = 3 T, π = 3. \n3. Fica T = (2 · 3 · 4·10⁻⁶) / (2·10⁻⁶ · 3). \n4. T = (24·10⁻⁶) / (6·10⁻⁶). \n5. As potências de 10 se anulam, resultando T = 24 / 6 = 4 s.",
+        "resolucao_legivel": "T = (2 · 3 · 4·10⁻⁶) / (2·10⁻⁶ · 3) => T = 24 / 6 => T = 4 s",
+        "resolucao_latex": "T = \\frac{2 \\cdot 3 \\cdot 4 \\cdot 10^{-6}}{2 \\cdot 10^{-6} \\cdot 3} = \\frac{24}{6} = 4 \\text{ s}",
+        "resposta_final": "4 s"
+      },
+      "fonte_externa_necessaria": false,
+      "fonte": "UFRGS, Cap. 3, Seção 2.2, Eq. 3.5"
+    },
+    {
+      "tema": "Magnetismo",
+      "topico": "Força Magnética sobre Fio Retilíneo",
+      "conceito": "Assim como uma carga isolada sofre força magnética, um fio condutor por onde passam milhões de cargas (corrente elétrica) também sofre uma força global quando inserido em um campo magnético. Essa força é a base do funcionamento dos motores elétricos.",
+      "formula_legivel": "F = B·I·L·sen(θ)",
+      "formula_latex": "F = B \\cdot I \\cdot L \\cdot \\text{sen}(\\theta)",
+      "variaveis": [
+        {
+          "simbolo": "F",
+          "significado": "Força magnética sobre o fio (Newton, N)"
+        },
+        {
+          "simbolo": "B",
+          "significado": "Densidade do campo magnético externo (Tesla, T)"
+        },
+        {
+          "simbolo": "I",
+          "significado": "Intensidade da corrente elétrica (Ampère, A)"
+        },
+        {
+          "simbolo": "L",
+          "significado": "Comprimento do fio imerso no campo (metros, m)"
+        },
+        {
+          "simbolo": "θ",
+          "significado": "Ângulo entre o fio e as linhas do campo"
+        }
+      ],
+      "nota_pedagogica": "A força é nula se o fio estiver paralelo ao campo. O sentido desta força pode ser achado pela Regra da Mão Direita Espalmada (o polegar indica a corrente, os dedos indicam o campo B, e o 'tapa' da palma indica a força).",
+      "exercicio_resolvido": {
+        "enunciado": "Um fio com 0,2 m de comprimento é percorrido por 5 A num campo magnético uniforme de 3 T. O fio forma 30° com as linhas do campo (sen 30° = 0,5). Calcule a força magnética sobre ele.",
+        "passo_a_passo": "1. Temos os valores B = 3 T, I = 5 A, L = 0,2 m, sen(30°) = 0,5. \n2. Usamos a fórmula da força sobre o condutor: F = B·I·L·sen(θ). \n3. Substituímos: F = 3 · 5 · 0,2 · 0,5. \n4. Multiplicamos: F = 15 · 0,1 = 1,5 N.",
+        "resolucao_legivel": "F = 3 · 5 · 0,2 · 0,5 => F = 15 · 0,1 => F = 1,5 N",
+        "resolucao_latex": "F = 3 \\cdot 5 \\cdot 0,2 \\cdot 0,5 = 1,5 \\text{ N}",
+        "resposta_final": "1,5 N"
+      },
+      "fonte_externa_necessaria": false,
+      "fonte": "CEFET/SC, Parte II, Seção 5.1 / UFRGS, Cap. 4, Seção 1"
+    },
+    {
+      "tema": "Magnetismo",
+      "topico": "Força Magnética entre Fios Paralelos",
+      "conceito": "Dois fios condutores paralelos que transportam corrente elétrica interagem entre si, exercendo forças magnéticas um sobre o outro (formando um par de ação e reação). Fios com correntes no mesmo sentido se atraem, enquanto fios com correntes em sentidos opostos se repelem.",
+      "formula_legivel": "F = (μ·I1·I2·L) / (2·π·d)",
+      "formula_latex": "F = \\frac{\\mu \\cdot I_1 \\cdot I_2 \\cdot L}{2 \\cdot \\pi \\cdot d}",
+      "variaveis": [
+        {
+          "simbolo": "F",
+          "significado": "Força elétrica mútua de atração ou repulsão (Newton, N)"
+        },
+        {
+          "simbolo": "μ",
+          "significado": "Permeabilidade magnética do meio (T·m/A)"
+        },
+        {
+          "simbolo": "I1, I2",
+          "significado": "Correntes elétricas nos condutores (Ampère, A)"
+        },
+        {
+          "simbolo": "L",
+          "significado": "Comprimento dos condutores paralelo (metros, m)"
+        },
+        {
+          "simbolo": "d",
+          "significado": "Distância entre os fios (metros, m)"
+        }
+      ],
+      "nota_pedagogica": "Esta força é a base física original para definir o valor exato da unidade 'Ampère' no Sistema Internacional de Unidades (SI).",
+      "exercicio_resolvido": {
+        "enunciado": "Dois fios paralelos longos, separados por 0,05 m no vácuo (μ = 4π·10⁻⁷ T·m/A), transportam correntes de 5 A e 8 A. Calcule a força magnética que atua em cada metro (L = 1 m) desses fios.",
+        "passo_a_passo": "1. Identifique os dados: I1 = 5 A, I2 = 8 A, d = 0,05 m, L = 1 m. \n2. Fórmula: F = (μ·I1·I2·L) / (2·π·d). \n3. F = (4π·10⁻⁷ · 5 · 8 · 1) / (2·π · 0,05). \n4. Cancelando π e o 2: F = (2·10⁻⁷ · 40) / 0,05. \n5. F = 80·10⁻⁷ / 0,05 = 1600·10⁻⁷ N = 1,6·10⁻⁴ N.",
+        "resolucao_legivel": "F = (4π·10⁻⁷ · 5 · 8 · 1) / (2π · 0,05) => F = (2·10⁻⁷ · 40) / 0,05 => F = 80·10⁻⁷ / 0,05 => F = 1,6·10⁻⁴ N",
+        "resolucao_latex": "F = \\frac{4\\pi \\cdot 10^{-7} \\cdot 5 \\cdot 8 \\cdot 1}{2\\pi \\cdot 0,05} = \\frac{80 \\cdot 10^{-7}}{0,05} = 1,6 \\cdot 10^{-4} \\text{ N}",
+        "resposta_final": "1,6·10⁻⁴ N"
+      },
+      "fonte_externa_necessaria": false,
+      "fonte": "UFRGS, Cap. 4, Seção 3 / CEFET/SC, Parte II, Seção 5.4"
+    },
+    {
+      "tema": "Magnetismo",
+      "topico": "Campo Magnético de Fio Retilíneo (Lei de Ampère)",
+      "conceito": "Quando a corrente elétrica flui por um fio esticado, ela cria um campo magnético circular ao seu redor. Quanto mais forte for a corrente, mais intenso é o campo; mas quanto mais longe do fio estivermos, mais fraco o campo fica.",
+      "formula_legivel": "B = (μ·I) / (2·π·r)",
+      "formula_latex": "B = \\frac{\\mu \\cdot I}{2 \\cdot \\pi \\cdot r}",
+      "variaveis": [
+        {
+          "simbolo": "B",
+          "significado": "Densidade do campo magnético gerado (Tesla, T)"
+        },
+        {
+          "simbolo": "μ",
+          "significado": "Permeabilidade magnética do meio (T·m/A)"
+        },
+        {
+          "simbolo": "I",
+          "significado": "Corrente no fio (Ampère, A)"
+        },
+        {
+          "simbolo": "r",
+          "significado": "Distância do ponto até o centro do fio (metros, m)"
+        }
+      ],
+      "nota_pedagogica": "Para descobrir o sentido de rotação destas linhas de campo, usa-se a regra da mão direita envolvendo o condutor, com o polegar apontando para o sentido da corrente.",
+      "exercicio_resolvido": {
+        "enunciado": "Calcule a densidade de campo magnético a 0,2 metros de um fio reto muito longo que transporta uma corrente de 10 A no vácuo (μ = 4π·10⁻⁷ T·m/A).",
+        "passo_a_passo": "1. Organizando os dados: I = 10 A, r = 0,2 m. \n2. Usamos B = (μ·I) / (2·π·r). \n3. Substituindo: B = (4π·10⁻⁷ · 10) / (2π · 0,2). \n4. Dividimos 4π por 2π, restando 2 em cima: B = (2·10⁻⁷ · 10) / 0,2. \n5. B = (20·10⁻⁷) / 0,2 = 100·10⁻⁷ = 10·10⁻⁶ T (ou 10 μT).",
+        "resolucao_legivel": "B = (4π·10⁻⁷ · 10) / (2π · 0,2) => B = (2·10⁻⁷ · 10) / 0,2 => B = 10·10⁻⁶ T",
+        "resolucao_latex": "B = \\frac{4\\pi \\cdot 10^{-7} \\cdot 10}{2\\pi \\cdot 0,2} = \\frac{40\\pi \\cdot 10^{-7}}{0,4\\pi} = 100 \\cdot 10^{-7} = 10^{-5} \\text{ T}",
+        "resposta_final": "10 μT (ou 10⁻⁵ T)"
+      },
+      "fonte_externa_necessaria": false,
+      "fonte": "UFRGS, Cap. 2, Eq 2.1 / CEFET/SC, Parte II, Seção 4.1"
+    },
+    {
+      "tema": "Magnetismo",
+      "topico": "Campo Magnético no Interior de um Solenoide",
+      "conceito": "Um solenoide é uma bobina longa feita enrolando-se um fio várias vezes em forma de cilindro. Ao ligar a corrente, os campos magnéticos de cada 'anel' (espira) se somam, gerando em seu interior um campo magnético intenso, uniforme e bem reto, funcionando como um super ímã de barra artificial.",
+      "formula_legivel": "B = (N·μ·I) / L",
+      "formula_latex": "B = \\frac{N \\cdot \\mu \\cdot I}{L}",
+      "variaveis": [
+        {
+          "simbolo": "B",
+          "significado": "Densidade do campo magnético dentro da bobina (Tesla, T)"
+        },
+        {
+          "simbolo": "N",
+          "significado": "Número total de voltas/espiras"
+        },
+        {
+          "simbolo": "μ",
+          "significado": "Permeabilidade magnética do núcleo (T·m/A)"
+        },
+        {
+          "simbolo": "I",
+          "significado": "Corrente elétrica (Ampère, A)"
+        },
+        {
+          "simbolo": "L",
+          "significado": "Comprimento do tubo do solenoide (metros, m)"
+        }
+      ],
+      "nota_pedagogica": "Fique atento: o 'L' não é o comprimento do fio esticado, mas sim o comprimento físico do tubo/cilindro por onde ele foi enrolado.",
+      "exercicio_resolvido": {
+        "enunciado": "Determine o campo magnético no interior de um solenoide com 1000 espiras, 0,5 metros de comprimento, núcleo de ar (μ = 4π·10⁻⁷ T·m/A) percorrido por uma corrente de 2 A. Adote π = 3,14.",
+        "passo_a_passo": "1. Identifique os dados: N = 1000, L = 0,5 m, I = 2 A. \n2. Fórmula do solenoide: B = (N·μ·I) / L. \n3. Substituindo: B = (1000 · 4π·10⁻⁷ · 2) / 0,5. \n4. Multiplicando tudo em cima: B = (8000π·10⁻⁷) / 0,5 = 16000π·10⁻⁷ T. \n5. Adotando π=3,14: B = 16000 · 3,14 · 10⁻⁷ = 50240 · 10⁻⁷ T = 5,024·10⁻³ T.",
+        "resolucao_legivel": "B = (1000 · 4π·10⁻⁷ · 2) / 0,5 => B = 16000π·10⁻⁷ => B ≈ 5,024·10⁻³ T",
+        "resolucao_latex": "B = \\frac{1000 \\cdot 4\\pi \\cdot 10^{-7} \\cdot 2}{0,5} = 16000\\pi \\cdot 10^{-7} \\approx 5,024 \\cdot 10^{-3} \\text{ T}",
+        "resposta_final": "5,024·10⁻³ T"
+      },
+      "fonte_externa_necessaria": false,
+      "fonte": "UFRGS, Cap. 2, Eq 2.3 / CEFET/SC, Parte II, Seção 4.3"
+    },
+    {
+      "tema": "Magnetismo",
+      "topico": "Campo Magnético no Núcleo de um Toróide",
+      "conceito": "O toróide é basicamente um solenoide cujas pontas foram dobradas até se tocarem, formando uma 'rosquinha'. A principal vantagem desse formato é que ele confina praticamente todo o campo magnético no seu interior circular, não havendo 'fugas' para o lado de fora.",
+      "formula_legivel": "B = (μ·N·I) / (2·π·R)",
+      "formula_latex": "B = \\frac{\\mu \\cdot N \\cdot I}{2 \\cdot \\pi \\cdot R}",
+      "variaveis": [
+        {
+          "simbolo": "B",
+          "significado": "Campo magnético no núcleo da rosquinha (Tesla, T)"
+        },
+        {
+          "simbolo": "μ",
+          "significado": "Permeabilidade magnética do material do núcleo (T·m/A)"
+        },
+        {
+          "simbolo": "N",
+          "significado": "Número de espiras enroladas"
+        },
+        {
+          "simbolo": "I",
+          "significado": "Corrente elétrica contínua (Ampère, A)"
+        },
+        {
+          "simbolo": "R",
+          "significado": "Raio médio do toróide (metros, m)"
+        }
+      ],
+      "nota_pedagogica": "Lembre-se que o R nesta fórmula é o 'raio médio' da estrutura (medido do centro vazio da rosquinha até o meio da massa do tubo), e não o tamanho da espira.",
+      "exercicio_resolvido": {
+        "enunciado": "Calcule o campo magnético indutor (H) num toróide de núcleo de ar com raio médio de 0,1 m e 500 espiras percorridas por 3 A. Lembre que H não utiliza o 'μ', sendo H = (N·I) / (2·π·R). Adote π = 3.",
+        "passo_a_passo": "1. Na física dos materiais magnéticos usamos o campo indutor H: H = (N·I) / (2·π·R). \n2. Valores dados: N = 500, I = 3 A, R = 0,1 m. \n3. Substituindo: H = (500 · 3) / (2 · 3 · 0,1). \n4. Multiplicando: H = 1500 / 0,6. \n5. Fazendo a divisão: H = 2500 Ae/m.",
+        "resolucao_legivel": "H = (500 · 3) / (2 · 3 · 0,1) => H = 1500 / 0,6 => H = 2500 Ae/m",
+        "resolucao_latex": "H = \\frac{N \\cdot I}{2 \\cdot \\pi \\cdot R} = \\frac{500 \\cdot 3}{2 \\cdot 3 \\cdot 0,1} = 2500 \\text{ Ae/m}",
+        "resposta_final": "2500 Ae/m"
+      },
+      "fonte_externa_necessaria": false,
+      "fonte": "CEFET/SC, Parte II, Seção 4.4"
+    },
+    {
+      "tema": "Eletrodinâmica",
+      "topico": "Torque de Giro numa Espira",
+      "conceito": "Quando uma espira retangular ou circular, por onde passa corrente, é mergulhada num campo magnético, forças opostas atuam em lados diferentes da espira. Essas forças geram um binário (torque) que faz a espira começar a girar sobre o próprio eixo. Esse é o princípio exato de funcionamento dos motores elétricos.",
+      "formula_legivel": "τ = N·I·A·B·sen(θ)",
+      "formula_latex": "\\tau = N \\cdot I \\cdot A \\cdot B \\cdot \\text{sen}(\\theta)",
+      "variaveis": [
+        {
+          "simbolo": "τ",
+          "significado": "Torque ou momento de rotação (Newton-metro, N·m)"
+        },
+        {
+          "simbolo": "N",
+          "significado": "Número de espiras juntas na bobina"
+        },
+        {
+          "simbolo": "I",
+          "significado": "Intensidade da corrente (Ampère, A)"
+        },
+        {
+          "simbolo": "A",
+          "significado": "Área da face da espira (metros quadrados, m²)"
+        },
+        {
+          "simbolo": "B",
+          "significado": "Campo magnético (Tesla, T)"
+        },
+        {
+          "simbolo": "θ",
+          "significado": "Ângulo entre o campo e a reta perpendicular (normal) à espira"
+        }
+      ],
+      "nota_pedagogica": "O torque é máximo quando o plano da espira está paralelo às linhas de campo (ângulo de 90° para a linha normal), e é zero quando o plano se torna perfeitamente perpendicular.",
+      "exercicio_resolvido": {
+        "enunciado": "Uma bobina de 50 espiras, com área de 0,01 m², é percorrida por 2 A e imersa num campo B = 0,5 T. Quando seu plano está paralelo às linhas de campo (formando um ângulo θ de 90° com a normal), qual o torque máximo de giro gerado?",
+        "passo_a_passo": "1. Identificar dados: N=50, I=2 A, A=0,01 m², B=0,5 T e sen(90°)=1. \n2. Aplicar a fórmula do torque: τ = N·I·A·B·sen(θ). \n3. Substituindo os valores: τ = 50 · 2 · 0,01 · 0,5 · 1. \n4. Multiplicando: τ = 100 · 0,01 · 0,5 = 1 · 0,5 = 0,5 N·m.",
+        "resolucao_legivel": "τ = 50 · 2 · 0,01 · 0,5 · 1 => τ = 100 · 0,005 => τ = 0,5 N·m",
+        "resolucao_latex": "\\tau = 50 \\cdot 2 \\cdot 0,01 \\cdot 0,5 \\cdot 1 = 0,5 \\text{ N}\\cdot\\text{m}",
+        "resposta_final": "0,5 N·m"
+      },
+      "fonte_externa_necessaria": false,
+      "fonte": "CEFET/SC, Parte II, Seção 5.5 / UFRGS, Cap. 4, Seção 2"
+    },
+    {
+      "tema": "Eletrodinâmica",
+      "topico": "Força Magneto-Motriz (FMM)",
+      "conceito": "Em circuitos elétricos, é a força eletromotriz que 'empurra' a corrente. Nos circuitos magnéticos, existe algo análogo: a Força Magneto-Motriz (FMM). É ela a responsável por gerar o fluxo magnético dentro do núcleo de materiais, sendo diretamente dependente do número de voltas de fio na bobina e da corrente injetada nelas.",
+      "formula_legivel": "FMM = N·I",
+      "formula_latex": "\\text{FMM} = N \\cdot I",
+      "variaveis": [
+        {
+          "simbolo": "FMM",
+          "significado": "Força Magneto-Motriz (Ampère-espira, Ae)"
+        },
+        {
+          "simbolo": "N",
+          "significado": "Número de espiras ou voltas da bobina (adimensional)"
+        },
+        {
+          "simbolo": "I",
+          "significado": "Intensidade da corrente elétrica aplicável (Ampère, A)"
+        }
+      ],
+      "nota_pedagogica": "A unidade Ampère-espira (Ae) não é estritamente uma unidade SI base para fluxo, mas é uma convenção muito popular no ensino técnico para evidenciar a contribuição construtiva da bobina.",
+      "exercicio_resolvido": {
+        "enunciado": "Qual a Força Magneto-Motriz produzida por uma bobina de um relé que tem 120 espiras e está ligada em um circuito que consome 0,5 A?",
+        "passo_a_passo": "1. Identificamos: N = 120 espiras, I = 0,5 A. \n2. Aplicamos a fórmula FMM = N·I. \n3. Substituindo os valores, temos FMM = 120 · 0,5. \n4. Multiplicando: FMM = 60 Ae.",
+        "resolucao_legivel": "FMM = 120 · 0,5 => FMM = 60 Ae",
+        "resolucao_latex": "\\text{FMM} = 120 \\cdot 0,5 = 60 \\text{ Ae}",
+        "resposta_final": "60 Ae"
+      },
+      "fonte_externa_necessaria": false,
+      "fonte": "CEFET/SC, Parte II, Seção 4.4"
+    },
+    {
+      "tema": "Eletrodinâmica",
+      "topico": "Relutância e Lei de Hopkinson",
+      "conceito": "Da mesma forma que a resistência elétrica dificulta a passagem da corrente, a Relutância Magnética é a dificuldade que um material impõe à passagem do fluxo magnético. Pela 'Lei de Hopkinson', o fluxo gerado é a divisão da força que empurra (FMM) pela dificuldade do caminho (Relutância).",
+      "formula_legivel": "φ = FMM / ℜ",
+      "formula_latex": "\\varphi = \\frac{\\text{FMM}}{\\Re}",
+      "variaveis": [
+        {
+          "simbolo": "φ",
+          "significado": "Fluxo Magnético gerado (Weber, Wb)"
+        },
+        {
+          "simbolo": "FMM",
+          "significado": "Força Magneto-Motriz aplicada (Ampère-espira, Ae)"
+        },
+        {
+          "simbolo": "ℜ",
+          "significado": "Relutância Magnética do material (Ae/Wb)"
+        }
+      ],
+      "nota_pedagogica": "A relutância depende das dimensões do núcleo e da permeabilidade do material (μ). Núcleos de ferro têm permeabilidade altíssima, o que reduz drasticamente a relutância, permitindo grande fluxo.",
+      "exercicio_resolvido": {
+        "enunciado": "Em um transformador, uma bobina gera uma FMM de 500 Ae. Se a relutância do núcleo de ferro é de 100.000 Ae/Wb, qual o fluxo magnético (φ) que irá atravessá-lo?",
+        "passo_a_passo": "1. Dados: FMM = 500 Ae, ℜ = 100.000 Ae/Wb. \n2. Usamos a Lei de Hopkinson: φ = FMM / ℜ. \n3. Substituímos os valores: φ = 500 / 100000. \n4. Fazendo a divisão: φ = 0,005 Wb.",
+        "resolucao_legivel": "φ = 500 / 100000 => φ = 5 / 1000 => φ = 0,005 Wb",
+        "resolucao_latex": "\\varphi = \\frac{500}{100000} = 0,005 \\text{ Wb}",
+        "resposta_final": "0,005 Wb"
+      },
+      "fonte_externa_necessaria": false,
+      "fonte": "CEFET/SC, Parte II, Seção 4.4"
+    },
+    {
+      "tema": "Eletrodinâmica",
+      "topico": "Fluxo Magnético",
+      "conceito": "O fluxo magnético é como se estivéssemos contando quantas linhas invisíveis do campo magnético estão conseguindo atravessar e furar uma determinada área (como o aro de um bambolê). Se girarmos esse bambolê de modo que ele fique de perfil (paralelo), nenhuma linha consegue atravessá-lo, tornando o fluxo zero.",
+      "formula_legivel": "φ = B·A·cos(θ)",
+      "formula_latex": "\\varphi = B \\cdot A \\cdot \\cos(\\theta)",
+      "variaveis": [
+        {
+          "simbolo": "φ",
+          "significado": "Fluxo magnético total (Weber, Wb)"
+        },
+        {
+          "simbolo": "B",
+          "significado": "Densidade ou intensidade do campo magnético (Tesla, T)"
+        },
+        {
+          "simbolo": "A",
+          "significado": "Área da superfície atravessada (metros quadrados, m²)"
+        },
+        {
+          "simbolo": "θ",
+          "significado": "Ângulo entre as linhas do campo e a reta Normal (perpendicular) à área"
+        }
+      ],
+      "nota_pedagogica": "Fique atento que o ângulo não é em relação à superfície da espira em si, mas sim em relação ao seu 'vetor normal', uma reta imaginária que faz 90 graus com a área.",
+      "exercicio_resolvido": {
+        "enunciado": "Um aro quadrado tem uma área de 0,05 m² e está num campo magnético uniforme de 0,2 T. Qual o fluxo se a normal à área forma um ângulo de 60° com as linhas do campo? (cos(60°) = 0,5)",
+        "passo_a_passo": "1. Valores: B = 0,2 T, A = 0,05 m², e cos(60°) = 0,5. \n2. Fórmula: φ = B·A·cos(θ). \n3. Substituindo: φ = 0,2 · 0,05 · 0,5. \n4. Multiplicando: φ = 0,01 · 0,5 = 0,005 Wb.",
+        "resolucao_legivel": "φ = 0,2 · 0,05 · 0,5 => φ = 0,01 · 0,5 => φ = 0,005 Wb",
+        "resolucao_latex": "\\varphi = 0,2 \\cdot 0,05 \\cdot 0,5 = 0,005 \\text{ Wb}",
+        "resposta_final": "0,005 Wb"
+      },
+      "fonte_externa_necessaria": false,
+      "fonte": "UFRGS, Cap. 6, Seção 2, Eq 6.1"
+    },
+    {
+      "tema": "Eletrodinâmica",
+      "topico": "Lei da Indução de Faraday",
+      "conceito": "Michael Faraday descobriu que só é possível criar eletricidade a partir do magnetismo se houver movimento ou mudança. Se o fluxo magnético através de um circuito aumentar ou diminuir com o tempo, o sistema reage induzindo uma voltagem (Força Eletromotriz) para criar uma corrente. Esse é o coração dos geradores de usinas.",
+      "formula_legivel": "e = - N · (Δφ / Δt)",
+      "formula_latex": "e = - N \\cdot \\frac{\\Delta \\varphi}{\\Delta t}",
+      "variaveis": [
+        {
+          "simbolo": "e",
+          "significado": "Força eletromotriz induzida ou tensão média (Volts, V)"
+        },
+        {
+          "simbolo": "N",
+          "significado": "Número de espiras da bobina (adimensional)"
+        },
+        {
+          "simbolo": "Δφ",
+          "significado": "Variação do fluxo magnético: final menos inicial (Weber, Wb)"
+        },
+        {
+          "simbolo": "Δt",
+          "significado": "Intervalo de tempo onde ocorreu a variação (segundos, s)"
+        }
+      ],
+      "nota_pedagogica": "O sinal de negativo na fórmula é uma representação da 'Lei de Lenz', lembrando que o circuito é conservativo e tenta gerar uma corrente cujo próprio campo magnético se opõe à variação original.",
+      "exercicio_resolvido": {
+        "enunciado": "Uma bobina de 100 espiras sofre uma variação de fluxo magnético (Δφ) de 0,002 Wb em apenas 0,1 s. Qual é a voltagem induzida média nos terminais da bobina?",
+        "passo_a_passo": "1. Valores: N = 100, Δφ = 0,002 Wb, Δt = 0,1 s. \n2. Aplicar a Lei de Faraday (considerando apenas a magnitude ou intensidade da tensão): e = N · (Δφ / Δt). \n3. Fica e = 100 · (0,002 / 0,1). \n4. Dividindo 0,002 por 0,1 obtemos 0,02. \n5. Multiplicando: e = 100 · 0,02 = 2 V.",
+        "resolucao_legivel": "e = 100 · (0,002 / 0,1) => e = 100 · 0,02 => e = 2 V",
+        "resolucao_latex": "e = 100 \\cdot \\frac{0,002}{0,1} = 100 \\cdot 0,02 = 2 \\text{ V}",
+        "resposta_final": "2 V"
+      },
+      "fonte_externa_necessaria": false,
+      "fonte": "UFRGS, Cap. 6, Eq 6.2 / CEFET/SC, Parte II, Seção 7"
+    },
+    {
+      "tema": "Eletrodinâmica",
+      "topico": "Tensão Induzida em Condutor Móvel",
+      "conceito": "Se você pegar uma haste ou barra de metal solta e simplesmente arrastá-la 'cortando' as linhas de um campo magnético constante de forma perpendicular, o campo empurrará os elétrons da barra para uma das pontas, transformando-a efetivamente numa pilha que gera tensão elétrica.",
+      "formula_legivel": "e = B·L·v",
+      "formula_latex": "e = B \\cdot L \\cdot v",
+      "variaveis": [
+        {
+          "simbolo": "e",
+          "significado": "Força eletromotriz ou tensão induzida (Volts, V)"
+        },
+        {
+          "simbolo": "B",
+          "significado": "Intensidade do campo magnético local (Tesla, T)"
+        },
+        {
+          "simbolo": "L",
+          "significado": "Comprimento da haste que está cortando as linhas (metros, m)"
+        },
+        {
+          "simbolo": "v",
+          "significado": "Velocidade da haste puxada (m/s)"
+        }
+      ],
+      "nota_pedagogica": "Esta é apenas uma versão simplificada da Lei de Faraday para condutores retos. Se conectarmos as pontas dessa barra com fios e um resistor, teremos um gerador elétrico primitivo.",
+      "exercicio_resolvido": {
+        "enunciado": "Um condutor em forma de barra tem 0,5 m de comprimento e é puxado com uma velocidade horizontal de 4 m/s num campo magnético vertical intenso de 1,2 T. Calcule a voltagem (e) nos terminais dessa barra.",
+        "passo_a_passo": "1. Identificar dados: B = 1,2 T, L = 0,5 m, v = 4 m/s. \n2. Aplicar a fórmula do corte de fluxo: e = B·L·v. \n3. Substituindo: e = 1,2 · 0,5 · 4. \n4. Multiplicando tudo: 1,2 · 2 = 2,4 V.",
+        "resolucao_legivel": "e = 1,2 · 0,5 · 4 => e = 0,6 · 4 => e = 2,4 V",
+        "resolucao_latex": "e = 1,2 \\cdot 0,5 \\cdot 4 = 2,4 \\text{ V}",
+        "resposta_final": "2,4 V"
+      },
+      "fonte_externa_necessaria": false,
+      "fonte": "CEFET/SC, Parte II, Seção 7.1"
+    },
+    {
+      "tema": "Eletrodinâmica",
+      "topico": "Indutância de um Solenoide",
+      "conceito": "Quando variamos a corrente num circuito que tem uma bobina (indutor), ele se rebela criando um campo reverso e dificultando essa mudança. A Indutância é a medida mecânica de quão 'teimoso' o componente é. Um número maior de enrolamentos e materiais como ferro dentro do tubo geram indutâncias elevadíssimas.",
+      "formula_legivel": "L = (μ·N²·A) / l",
+      "formula_latex": "L = \\frac{\\mu \\cdot N^2 \\cdot A}{l}",
+      "variaveis": [
+        {
+          "simbolo": "L",
+          "significado": "Indutância do indutor (Henry, H)"
+        },
+        {
+          "simbolo": "μ",
+          "significado": "Permeabilidade magnética do núcleo (T·m/A ou H/m)"
+        },
+        {
+          "simbolo": "N",
+          "significado": "Número de espiras"
+        },
+        {
+          "simbolo": "A",
+          "significado": "Área de seção transversal do núcleo (metros quadrados, m²)"
+        },
+        {
+          "simbolo": "l",
+          "significado": "Comprimento longitudinal do indutor (metros, m)"
+        }
+      ],
+      "nota_pedagogica": "Observe a presença do termo 'N ao quadrado'. Isso significa que dobrar o número de espiras quadruplica o valor do indutor!",
+      "exercicio_resolvido": {
+        "enunciado": "Calcule a indutância de uma bobina com núcleo de ar (μ = 4π·10⁻⁷), 100 espiras, comprimento de 0,1 m e área de 0,002 m². Adote π = 3.",
+        "passo_a_passo": "1. Dados: N = 100, N² = 10000, l = 0,1, A = 0,002, μ = 12·10⁻⁷ (usando π=3). \n2. Usar L = (μ·N²·A) / l. \n3. L = (12·10⁻⁷ · 10000 · 0,002) / 0,1. \n4. Multiplicando: L = (12·10⁻⁷ · 20) / 0,1 = 240·10⁻⁷ / 0,1. \n5. L = 2400·10⁻⁷ H = 2,4·10⁻⁴ H (ou 240 μH).",
+        "resolucao_legivel": "L = (12·10⁻⁷ · 10000 · 0,002) / 0,1 => L = (240·10⁻⁷) / 0,1 => L = 2400·10⁻⁷ H",
+        "resolucao_latex": "L = \\frac{12 \\cdot 10^{-7} \\cdot 10^4 \\cdot 2 \\cdot 10^{-3}}{0,1} = \\frac{24 \\cdot 10^{-6}}{0,1} = 2,4 \\cdot 10^{-4} \\text{ H}",
+        "resposta_final": "240 μH"
+      },
+      "fonte_externa_necessaria": false,
+      "fonte": "CEFET/SC, Parte II, Seção 9, Exemplo 9.1"
+    },
+    {
+      "tema": "Eletrodinâmica",
+      "topico": "Indutância Mútua e Acoplamento Magnético",
+      "conceito": "Quando dois circuitos com indutores estão posicionados próximos, o campo magnético gerado por um pode invadir o outro. Quando a corrente em um variar, ela vai forçar a criação de tensão no outro. Esse compartilhamento é a indutância mútua, base dos transformadores de energia.",
+      "formula_legivel": "M = k · √(L1 · L2)",
+      "formula_latex": "M = k \\cdot \\sqrt{L_1 \\cdot L_2}",
+      "variaveis": [
+        {
+          "simbolo": "M",
+          "significado": "Indutância Mútua acoplada (Henry, H)"
+        },
+        {
+          "simbolo": "k",
+          "significado": "Coeficiente de acoplamento entre as bobinas (entre 0 e 1, adimensional)"
+        },
+        {
+          "simbolo": "L1",
+          "significado": "Autoindutância da bobina 1 (Henry, H)"
+        },
+        {
+          "simbolo": "L2",
+          "significado": "Autoindutância da bobina 2 (Henry, H)"
+        }
+      ],
+      "nota_pedagogica": "Se k = 1, o acoplamento é ideal (nenhuma linha de fluxo magnético escapa sem passar pela segunda bobina), situação desejada em transformadores com núcleo de ferro fechado.",
+      "exercicio_resolvido": {
+        "enunciado": "Duas bobinas estão enroladas bem próximas, e sabemos que L1 = 4 mH e L2 = 9 mH. O fabricante aponta um ótimo coeficiente de acoplamento k = 0,8. Qual a indutância mútua (M) entre elas?",
+        "passo_a_passo": "1. Extrair os valores: L1 = 4, L2 = 9, k = 0,8. \n2. Usar a fórmula M = k · √(L1 · L2). \n3. Substituindo: M = 0,8 · √(4 · 9). \n4. Fazemos a multiplicação na raiz: √(36) = 6. \n5. Por fim: M = 0,8 · 6 = 4,8 mH.",
+        "resolucao_legivel": "M = 0,8 · √(4 · 9) => M = 0,8 · √(36) => M = 0,8 · 6 => M = 4,8 mH",
+        "resolucao_latex": "M = 0,8 \\cdot \\sqrt{4 \\cdot 9} = 0,8 \\cdot \\sqrt{36} = 0,8 \\cdot 6 = 4,8 \\text{ mH}",
+        "resposta_final": "4,8 mH"
+      },
+      "fonte_externa_necessaria": false,
+      "fonte": "CEFET/SC, Parte II, Seção 16"
+    },
+    {
+      "tema": "Eletrostática",
+      "topico": "Força Elétrica (Lei de Coulomb)",
+      "conceito": "Enquanto no magnetismo os polos se atraem e se repelem, na eletrostática esse fenômeno ocorre em cargas elétricas de sinais iguais (repulsão) ou opostos (atração). A força elétrica é mais poderosa quanto maiores forem as cargas e se torna muito mais fraca à medida que elas se afastam.",
+      "formula_legivel": "F = (k·|q1|·|q2|) / d²",
+      "formula_latex": "F = k \\frac{|q_1| \\cdot |q_2|}{d^2}",
+      "variaveis": [
+        {
+          "simbolo": "F",
+          "significado": "Intensidade da força elétrica de atração/repulsão (Newton, N)"
+        },
+        {
+          "simbolo": "k",
+          "significado": "Constante eletrostática do vácuo (N·m²/C²)"
+        },
+        {
+          "simbolo": "q1, q2",
+          "significado": "Cargas elétricas pontuais interagindo (Coulomb, C)"
+        },
+        {
+          "simbolo": "d",
+          "significado": "Distância retilínea entre as cargas (metros, m)"
+        }
+      ],
+      "nota_pedagogica": "A lei de atração do magnetismo apresentada na UFRGS tem a sua origem histórica baseada fortemente nas equações simétricas do elétron estático na física clássica, como o de Coulomb.",
+      "exercicio_resolvido": {
+        "enunciado": "Duas pequenas esferas no vácuo (k = 9·10⁹) possuem cargas de 4 μC (4·10⁻⁶ C) e 5 μC (5·10⁻⁶ C) e estão distantes 0,2 metros. Qual o valor da força elétrica gerada entre elas?",
+        "passo_a_passo": "1. Dados: q1=4·10⁻⁶ C, q2=5·10⁻⁶ C, d=0,2 m (d² = 0,04 m²), k=9·10⁹. \n2. Aplicamos F = (k·q1·q2) / d². \n3. Numerador: 9·10⁹ · 4·10⁻⁶ · 5·10⁻⁶ = 9·10⁹ · 20·10⁻¹² = 180·10⁻³ = 0,18. \n4. Dividimos pelo quadrado da distância: F = 0,18 / 0,04 = 4,5 N.",
+        "resolucao_legivel": "F = (9·10⁹ · 20·10⁻¹²) / 0,04 => F = 180·10⁻³ / 0,04 => F = 0,18 / 0,04 => F = 4,5 N",
+        "resolucao_latex": "F = \\frac{9\\cdot 10^9 \\cdot 4\\cdot 10^{-6} \\cdot 5\\cdot 10^{-6}}{0,2^2} = \\frac{180 \\cdot 10^{-3}}{0,04} = 4,5 \\text{ N}",
+        "resposta_final": "4,5 N"
+      },
+      "fonte_externa_necessaria": true,
+      "fonte": "Conhecimento geral (Introduzido por menções de cargas no material da UFRGS)"
+    },
+    {
+      "tema": "Eletrostática",
+      "topico": "Intensidade do Campo Elétrico",
+      "conceito": "Uma carga em repouso altera a 'textura' do espaço ao seu redor criando um Campo Elétrico, análogo à Terra criando seu campo gravitacional. Qualquer outra carga colocada dentro dessa zona de campo sofrerá uma força de atração ou repulsão proporcional ao tamanho desse campo.",
+      "formula_legivel": "E = F / |q|",
+      "formula_latex": "E = \\frac{F}{|q|}",
+      "variaveis": [
+        {
+          "simbolo": "E",
+          "significado": "Vetor de intensidade do campo elétrico local (Newton por Coulomb, N/C)"
+        },
+        {
+          "simbolo": "F",
+          "significado": "Força elétrica sentida pela carga de prova (Newton, N)"
+        },
+        {
+          "simbolo": "q",
+          "significado": "Módulo da carga de prova depositada (Coulomb, C)"
+        }
+      ],
+      "nota_pedagogica": "Enquanto no magnetismo usamos o Tesla (T) e analisamos correntes, na eletrostática o campo é mapeado com base em cargas paradas em N/C ou V/m. Esse vetor diverge se a carga base for positiva.",
+      "exercicio_resolvido": {
+        "enunciado": "Uma minúscula carga de prova de 5 μC (5·10⁻⁶ C) é colocada em um ponto específico do espaço e, imediatamente, sente um 'puxão' com força elétrica de 0,2 N. Qual a força do campo elétrico nesse exato ponto?",
+        "passo_a_passo": "1. Identificamos: q = 5·10⁻⁶ C, F = 0,2 N. \n2. Usamos a relação de campo e força: E = F / q. \n3. Substituindo: E = 0,2 / (5·10⁻⁶). \n4. Isso é o mesmo que E = 0,2 · 10⁶ / 5. \n5. E = 200.000 / 5 = 40.000 N/C.",
+        "resolucao_legivel": "E = 0,2 / (5·10⁻⁶) => E = 200.000 / 5 => E = 40.000 N/C",
+        "resolucao_latex": "E = \\frac{0,2}{5 \\cdot 10^{-6}} = 0,04 \\cdot 10^6 = 40.000 \\text{ N/C}",
+        "resposta_final": "40.000 N/C"
+      },
+      "fonte_externa_necessaria": true,
+      "fonte": "Conhecimento geral (Introduzido por analogia no material da UFRGS, Cap 1.3)"
+    },
+    {
+      "tema": "Ondas Eletromagnéticas",
+      "topico": "Equação Fundamental da Onda",
+      "conceito": "Quando campos magnéticos e elétricos vibram perfeitamente juntos, criam uma perturbação dupla que viaja pelo espaço mesmo que não haja ar (no vácuo). O ritmo de oscilação dessas ondas é a sua frequência, e o tamanho dos 'passos' no vácuo dita a cor da luz ou tipo da onda.",
+      "formula_legivel": "c = λ·f",
+      "formula_latex": "c = \\lambda \\cdot f",
+      "variaveis": [
+        {
+          "simbolo": "c",
+          "significado": "Velocidade da luz no vácuo (aproximadamente 3·10⁸ m/s)"
+        },
+        {
+          "simbolo": "λ",
+          "significado": "Comprimento de onda, distância entre dois picos (metros, m)"
+        },
+        {
+          "simbolo": "f",
+          "significado": "Frequência de oscilação da onda eletromagnética (Hertz, Hz)"
+        }
+      ],
+      "nota_pedagogica": "A luz, as micro-ondas e os sinais de rádio ou celular são a mesmíssima coisa (ondas eletromagnéticas), mudando apenas o valor das variáveis da fórmula de comprimento e frequência.",
+      "exercicio_resolvido": {
+        "enunciado": "Uma rádio FM popular emite suas ondas eletromagnéticas na frequência de 100 MHz (100 milhões de oscilações por segundo, ou 10⁸ Hz). Dado que viajam à velocidade da luz (3·10⁸ m/s), qual o comprimento de onda do sinal?",
+        "passo_a_passo": "1. Dados: c = 3·10⁸ m/s e f = 10⁸ Hz. \n2. Na equação c = λ·f, queremos isolar λ, portanto λ = c / f. \n3. Substituindo: λ = (3·10⁸) / (10⁸). \n4. Cancelando as potências de dez, sobra λ = 3 metros.",
+        "resolucao_legivel": "λ = (3·10⁸) / (10⁸) => λ = 3 m",
+        "resolucao_latex": "\\lambda = \\frac{3 \\cdot 10^8}{10^8} = 3 \\text{ m}",
+        "resposta_final": "3 metros"
+      },
+      "fonte_externa_necessaria": true,
+      "fonte": "Conhecimento geral do Ensino Médio sobre o tema abordado em CEFET/SC Cap. 13"
+    },
+    {
+      "tema": "Ondas Eletromagnéticas",
+      "topico": "Relação entre Campos na Onda Eletromagnética",
+      "conceito": "James Clerk Maxwell mostrou que ondas eletromagnéticas são amarrações indissociáveis entre a eletricidade e o magnetismo. Para qualquer onda eletromagnética viajando no espaço vazio (como a luz solar), a força ou grandeza do campo elétrico é sempre dependente e calculada diretamente a partir do campo magnético da mesma onda.",
+      "formula_legivel": "E = c·B",
+      "formula_latex": "E = c \\cdot B",
+      "variaveis": [
+        {
+          "simbolo": "E",
+          "significado": "Intensidade do componente de Campo Elétrico (Volts por metro, V/m)"
+        },
+        {
+          "simbolo": "c",
+          "significado": "Velocidade da propagação no vácuo (aproximadamente 3·10⁸ m/s)"
+        },
+        {
+          "simbolo": "B",
+          "significado": "Intensidade do componente de Campo Magnético (Tesla, T)"
+        }
+      ],
+      "nota_pedagogica": "Esta equação comprova que o componente magnético de uma onda luminosa é numericamente muito, mas muito menor que o componente elétrico na escala SI, dividindo-se por trezentos milhões.",
+      "exercicio_resolvido": {
+        "enunciado": "A luz de um abajur super potente produz um campo magnético instantâneo com densidade muito baixa de 2 μT (2·10⁻⁶ T). Assumindo a velocidade da luz c = 3·10⁸ m/s, qual seria o pico do campo elétrico gerado nesta onda?",
+        "passo_a_passo": "1. Identificando os dados: B = 2·10⁻⁶ T e c = 3·10⁸ m/s. \n2. Como é uma onda eletromagnética, usamos E = c·B. \n3. E = (3·10⁸) · (2·10⁻⁶). \n4. Multiplicando as bases e somando expoentes: 3·2 = 6 e 10^(8-6) = 10². \n5. E = 6 · 100 = 600 V/m.",
+        "resolucao_legivel": "E = (3·10⁸) · (2·10⁻⁶) => E = 6 · 10² => E = 600 V/m",
+        "resolucao_latex": "E = 3 \\cdot 10^8 \\cdot 2 \\cdot 10^{-6} = 6 \\cdot 10^2 = 600 \\text{ V/m}",
+        "resposta_final": "600 V/m"
+      },
+      "fonte_externa_necessaria": true,
+      "fonte": "Conhecimento geral complementar à Teoria de Maxwell do CEFET/SC Cap. 13"
+    }
+  ]
+}

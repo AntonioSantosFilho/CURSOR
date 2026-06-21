@@ -1,0 +1,267 @@
+{
+  "lacunas": [
+    {
+      "id": "lac_mag_001",
+      "modulo_id": "magnetismo",
+      "frase": "Na natureza, não existe _______ magnético isolado, pois os polos de um ímã são inseparáveis.",
+      "resposta": "monopolo",
+      "respostas_aceitas": [
+        "monopolo",
+        "polo",
+        "monopolo magnético"
+      ],
+      "explicacao": "A propriedade da inseparabilidade dos polos indica que não é possível isolar um polo norte ou sul; ao quebrar um ímã, dois novos ímãs completos se formam.",
+      "dificuldade": "facil",
+      "fonte": "UFRGS, Cap. 1, Seção 2.4 / CEFET/SC, Parte I, Seção 2.1"
+    },
+    {
+      "id": "lac_mag_002",
+      "modulo_id": "magnetismo",
+      "frase": "A unidade de medida da densidade de campo magnético no SI é o _______.",
+      "resposta": "tesla",
+      "respostas_aceitas": [
+        "tesla",
+        "T"
+      ],
+      "explicacao": "A densidade de campo magnético (B) é medida em tesla (T), em homenagem ao cientista Nikola Tesla.",
+      "dificuldade": "facil",
+      "fonte": "CEFET/SC, Parte I, Seção 3.1"
+    },
+    {
+      "id": "lac_mag_003",
+      "modulo_id": "magnetismo",
+      "frase": "A unidade de medida do fluxo magnético no Sistema Internacional é o _______.",
+      "resposta": "weber",
+      "respostas_aceitas": [
+        "weber",
+        "Wb"
+      ],
+      "explicacao": "O fluxo magnético, que quantifica o total de linhas de campo que atravessam perpendicularmente uma área, é medido em weber (Wb).",
+      "dificuldade": "medio",
+      "fonte": "CEFET/SC, Parte I, Seção 3.1"
+    },
+    {
+      "id": "lac_ele_004",
+      "modulo_id": "magnetismo",
+      "frase": "As linhas de campo magnético são fechadas e muito semelhantes às linhas de campo _______, saindo convencionalmente do polo norte em direção ao polo sul.",
+      "resposta": "elétrico",
+      "respostas_aceitas": [
+        "elétrico",
+        "eletrico"
+      ],
+      "explicacao": "Assim como o campo elétrico em torno de cargas na eletrostática, o campo magnético é representado por linhas imaginárias tangentes ao vetor campo em cada ponto.",
+      "dificuldade": "facil",
+      "fonte": "UFRGS, Cap. 1, Seção 3.1"
+    },
+    {
+      "id": "lac_eld_005",
+      "modulo_id": "eletrodinamica",
+      "frase": "O físico Hans Christian Oersted demonstrou que um fio condutor percorrido por _______ elétrica gera um campo magnético ao seu redor.",
+      "resposta": "corrente",
+      "respostas_aceitas": [
+        "corrente",
+        "corrente elétrica"
+      ],
+      "explicacao": "A experiência de Oersted (1820) provou a relação direta entre a eletrodinâmica (cargas em movimento) e o magnetismo ao desviar a agulha de uma bússola.",
+      "dificuldade": "facil",
+      "fonte": "UFRGS, Cap. 2, Seção 1 / CEFET/SC, Parte II, Seção 1"
+    },
+    {
+      "id": "lac_mag_006",
+      "modulo_id": "magnetismo",
+      "frase": "Substâncias _______, como o ferro doce, o níquel e o cobalto, possuem alta permeabilidade magnética e são fortemente atraídas por ímãs.",
+      "resposta": "ferromagnéticas",
+      "respostas_aceitas": [
+        "ferromagnéticas",
+        "ferromagneticas",
+        "ferromagnéticos",
+        "ferromagneticos"
+      ],
+      "explicacao": "Nos materiais ferromagnéticos, os domínios magnéticos alinham-se facilmente e fortemente a favor do campo externo aplicado.",
+      "dificuldade": "facil",
+      "fonte": "UFRGS, Cap. 5, Seção 2.2 / CEFET/SC, Parte I, Seção 5.1"
+    },
+    {
+      "id": "lac_mag_007",
+      "modulo_id": "magnetismo",
+      "frase": "A água, o bismuto e o cobre são exemplos de materiais _______, pois sofrem uma repulsão fraca quando expostos a um campo magnético.",
+      "resposta": "diamagnéticos",
+      "respostas_aceitas": [
+        "diamagnéticos",
+        "diamagneticos"
+      ],
+      "explicacao": "As substâncias diamagnéticas possuem suscetibilidade negativa e seus átomos criam um campo oposto ao campo indutor externo.",
+      "dificuldade": "medio",
+      "fonte": "UFRGS, Cap. 5, Seção 2.3 / CEFET/SC, Parte I, Seção 5.3"
+    },
+    {
+      "id": "lac_eld_008",
+      "modulo_id": "eletrodinamica",
+      "frase": "Para determinar o sentido circular das linhas de campo magnético geradas ao redor de um fio retilíneo, utilizamos a regra da mão _______.",
+      "resposta": "direita",
+      "respostas_aceitas": [
+        "direita"
+      ],
+      "explicacao": "Na regra da mão direita, o polegar indica o sentido da corrente elétrica e os demais dedos envolvem o condutor indicando o sentido do campo magnético.",
+      "dificuldade": "facil",
+      "fonte": "UFRGS, Cap. 2, Seção 2 / CEFET/SC, Parte II, Seção 4.1"
+    },
+    {
+      "id": "lac_eld_009",
+      "modulo_id": "eletrodinamica",
+      "frase": "Uma carga elétrica em movimento dentro de um campo magnético não sofrerá força se sua velocidade for _______ às linhas do campo.",
+      "resposta": "paralela",
+      "respostas_aceitas": [
+        "paralela",
+        "paralelo"
+      ],
+      "explicacao": "A força magnética é dada por F = q · v · B · sen(θ). Se o movimento é paralelo (0° ou 180°), o seno é zero e a força magnética será nula.",
+      "dificuldade": "medio",
+      "fonte": "UFRGS, Cap. 3, Seção 1.2"
+    },
+    {
+      "id": "lac_eld_010",
+      "modulo_id": "eletrodinamica",
+      "frase": "A Lei da Indução de _______ estabelece que a variação do fluxo magnético através de um circuito induz nele uma força eletromotriz.",
+      "resposta": "Faraday",
+      "respostas_aceitas": [
+        "Faraday",
+        "faraday"
+      ],
+      "explicacao": "A Lei de Faraday explica o princípio de funcionamento dos geradores: uma tensão é induzida proporcionalmente à rapidez da variação do fluxo magnético no tempo.",
+      "dificuldade": "medio",
+      "fonte": "UFRGS, Cap. 6, Seção 3.1 / CEFET/SC, Parte II, Seção 7.2"
+    },
+    {
+      "id": "lac_eld_011",
+      "modulo_id": "eletrodinamica",
+      "frase": "A Lei de _______ afirma que a corrente induzida tem um sentido tal que seu próprio campo magnético se opõe à variação do fluxo que a originou.",
+      "resposta": "Lenz",
+      "respostas_aceitas": [
+        "Lenz",
+        "lenz"
+      ],
+      "explicacao": "A Lei de Lenz é uma consequência do princípio da conservação da energia e determina o sentido da corrente elétrica induzida.",
+      "dificuldade": "medio",
+      "fonte": "UFRGS, Cap. 6, Seção 4"
+    },
+    {
+      "id": "lac_ond_012",
+      "modulo_id": "ondas-eletromagneticas",
+      "frase": "O físico James Clerk Maxwell demonstrou que a variação de um campo elétrico gera um campo _______ no espaço (e vice-versa), propagando-se como uma onda eletromagnética.",
+      "resposta": "magnético",
+      "respostas_aceitas": [
+        "magnético",
+        "magnetico"
+      ],
+      "explicacao": "A teoria das ondas eletromagnéticas de Maxwell baseia-se no fato de que campos elétricos e magnéticos variantes no tempo sustentam a propagação da onda no espaço, à velocidade da luz.",
+      "dificuldade": "dificil",
+      "fonte": "CEFET/SC, Parte II, Seção 13"
+    },
+    {
+      "id": "lac_mag_013",
+      "modulo_id": "magnetismo",
+      "frase": "Uma bobina longa, formada por um fio condutor enrolado em várias espiras juntas, é chamada de _______.",
+      "resposta": "solenoide",
+      "respostas_aceitas": [
+        "solenoide",
+        "solenóide",
+        "bobina longa"
+      ],
+      "explicacao": "O solenoide é largamente utilizado no eletromagnetismo porque cria em seu interior um campo magnético concentrado e quase uniforme quando percorrido por corrente.",
+      "dificuldade": "facil",
+      "fonte": "UFRGS, Cap. 2, Seção 4 / CEFET/SC, Parte II, Seção 4.3"
+    },
+    {
+      "id": "lac_eld_014",
+      "modulo_id": "eletrodinamica",
+      "frase": "Dois fios condutores longos e paralelos, se forem percorridos por correntes elétricas no mesmo sentido, sofrerão uma força magnética mútua de _______.",
+      "resposta": "atração",
+      "respostas_aceitas": [
+        "atração",
+        "atracao"
+      ],
+      "explicacao": "Pela interação de seus campos magnéticos, correntes de mesmo sentido se atraem, e correntes de sentidos opostos se repelem.",
+      "dificuldade": "medio",
+      "fonte": "UFRGS, Cap. 4, Seção 3 / CEFET/SC, Parte II, Seção 5.3"
+    },
+    {
+      "id": "lac_mag_015",
+      "modulo_id": "magnetismo",
+      "frase": "A _______ magnética é o fenômeno pelo qual um material ferromagnético permanece magnetizado mesmo após a retirada do campo magnético externo.",
+      "resposta": "histerese",
+      "respostas_aceitas": [
+        "histerese",
+        "Histerese"
+      ],
+      "explicacao": "A histerese é o atraso da magnetização em relação à força magnetizante, deixando um magnetismo remanescente. É o princípio utilizado em ímãs permanentes e gravações em HDs.",
+      "dificuldade": "dificil",
+      "fonte": "UFRGS, Cap. 5, Seção 2.2 / CEFET/SC, Parte II, Seção 14"
+    },
+    {
+      "id": "lac_eld_016",
+      "modulo_id": "eletrodinamica",
+      "frase": "A capacidade de uma bobina induzir tensão em si mesma devido à variação de sua própria corrente é chamada de indutância, medida em _______ no SI.",
+      "resposta": "henry",
+      "respostas_aceitas": [
+        "henry",
+        "H"
+      ],
+      "explicacao": "O henry (H) é a unidade de indutância no Sistema Internacional, definida a partir de uma variação de fluxo magnético por ampère de corrente.",
+      "dificuldade": "medio",
+      "fonte": "CEFET/SC, Parte II, Seção 8 e 9"
+    },
+    {
+      "id": "lac_mag_017",
+      "modulo_id": "magnetismo",
+      "frase": "O polo norte da agulha de uma bússola é atraído em direção ao polo sul magnético da Terra, que fica situado na região do polo _______ geográfico.",
+      "resposta": "norte",
+      "respostas_aceitas": [
+        "norte",
+        "Norte"
+      ],
+      "explicacao": "A Terra funciona como um gigantesco ímã. Para que o polo norte de uma bússola aponte para o norte geográfico, fisicamente lá existe um polo sul magnético que o atrai.",
+      "dificuldade": "medio",
+      "fonte": "UFRGS, Cap. 1, Seção 5"
+    },
+    {
+      "id": "lac_mag_018",
+      "modulo_id": "magnetismo",
+      "frase": "O análogo da resistência elétrica em circuitos magnéticos, ou seja, a medida de oposição que o material oferece ao fluxo magnético, é a _______ magnética.",
+      "resposta": "relutância",
+      "respostas_aceitas": [
+        "relutância",
+        "relutancia"
+      ],
+      "explicacao": "A relutância magnética depende inversamente da permeabilidade do material e afeta diretamente quão fácil é o estabelecimento do fluxo em um circuito magnético.",
+      "dificuldade": "dificil",
+      "fonte": "CEFET/SC, Parte I, Seção 7"
+    },
+    {
+      "id": "lac_eld_019",
+      "modulo_id": "eletrodinamica",
+      "frase": "A inserção de um material no núcleo de uma bobina, possuindo alta _______ magnética (como o ferro doce), amplifica muito a densidade do campo magnético.",
+      "resposta": "permeabilidade",
+      "respostas_aceitas": [
+        "permeabilidade",
+        "permeabilidade magnética",
+        "permeabilidade magnetica"
+      ],
+      "explicacao": "A permeabilidade magnética indica o quão bem um meio conduz as linhas de campo. Materiais ferromagnéticos têm permeabilidades milhares de vezes maiores que a do vácuo.",
+      "dificuldade": "medio",
+      "fonte": "UFRGS, Cap. 2, Seção 4 / CEFET/SC, Parte I, Seção 6"
+    },
+    {
+      "id": "lac_eld_020",
+      "modulo_id": "eletrodinamica",
+      "frase": "O princípio de funcionamento de um gerador de usina hidrelétrica é girar as espiras para variar o fluxo magnético no tempo, induzindo assim uma corrente do tipo _______.",
+      "resposta": "alternada",
+      "respostas_aceitas": [
+        "alternada"
+      ],
+      "explicacao": "À medida que a turbina gira a armadura dentro de um campo magnético, o fluxo varia de forma cíclica e inverte seu sinal, gerando tensão e corrente alternadas.",
+      "dificuldade": "dificil",
+      "fonte": "UFRGS, Cap. 6, Seção 5"
+    }
+  ]
+}

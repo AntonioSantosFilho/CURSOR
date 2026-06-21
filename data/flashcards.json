@@ -1,0 +1,197 @@
+{
+  "modulos": [
+    {
+      "id": "magnetismo",
+      "titulo": "Magnetismo",
+      "descricao": "Conceitos fundamentais de magnetismo, propriedades dos ímãs e interação magnética",
+      "flashcards": [
+        {
+          "id": "mag_fc_001",
+          "frente": "O que acontece ao quebrarmos um ímã ao meio?",
+          "verso": "Obteremos dois novos ímãs, cada um com um polo Norte e um polo Sul. Isso demonstra a propriedade da inseparabilidade dos polos, pois na natureza não existe monopolo magnético isolado.",
+          "tipo": "conceito",
+          "dificuldade": "facil",
+          "fonte": "UFRGS, Cap. 1, Seção 2.4 / CEFET/SC, Parte I, Seção 2.1"
+        },
+        {
+          "id": "mag_fc_002",
+          "frente": "O que representam as linhas de campo magnético e qual o seu sentido convencional?",
+          "verso": "São linhas imaginárias que representam a orientação do campo magnético. Por convenção, na parte externa do ímã, elas saem do polo Norte e entram no polo Sul.",
+          "tipo": "conceito",
+          "dificuldade": "facil",
+          "fonte": "UFRGS, Cap. 1, Seção 3.1 / CEFET/SC, Parte I, Seção 3"
+        },
+        {
+          "id": "mag_fc_003",
+          "frente": "Como o magnetismo é aplicado no funcionamento de um disco rígido (HD) de computador?",
+          "verso": "O HD possui um disco recoberto por material magnético. A cabeça de gravação utiliza um eletroímã para alinhar os ímãs microscópicos do disco, onde cada orientação magnética diferente representa um bit de informação (0 ou 1).",
+          "tipo": "aplicacao",
+          "dificuldade": "medio",
+          "fonte": "UFRGS, Cap. 1, Seção 2"
+        },
+        {
+          "id": "mag_fc_004",
+          "frente": "Como calculamos a intensidade da força magnética que atua sobre uma carga elétrica se movendo dentro de um campo magnético?",
+          "verso": "A intensidade da força (Fm) é o produto do módulo da carga (q), pela sua velocidade (v), pelo campo magnético (B) e pelo seno do ângulo (θ) formado entre a velocidade e as linhas do campo: Fm = |q|·v·B·sen(θ).",
+          "formula_latex": "F_m = |q| \\cdot v \\cdot B \\cdot \\text{sen}(\\theta)",
+          "tipo": "formula",
+          "dificuldade": "dificil",
+          "fonte": "UFRGS, Cap. 3, Seção 1.3 / CEFET/SC, Parte II, Seção 5.1"
+        },
+        {
+          "id": "mag_fc_005",
+          "frente": "O que é o fenômeno da Histerese Magnética?",
+          "verso": "É a capacidade de um material ferromagnético permanecer imantado (reter o magnetismo) mesmo após a retirada do campo magnético externo, sendo a base para a criação de ímãs permanentes.",
+          "tipo": "conceito",
+          "dificuldade": "medio",
+          "fonte": "UFRGS, Cap. 5, Seção 2.2 / CEFET/SC, Parte II, Seção 14"
+        }
+      ]
+    },
+    {
+      "id": "eletrodinamica",
+      "titulo": "Eletrodinâmica",
+      "descricao": "Corrente elétrica, campos gerados por correntes, força em fios e indução",
+      "flashcards": [
+        {
+          "id": "eld_fc_001",
+          "frente": "O que a experiência do físico Oersted, de 1820, demonstrou na prática?",
+          "verso": "Demonstrou que uma corrente elétrica fluindo por um fio condutor gera um campo magnético ao seu redor, sendo capaz de desviar a agulha de uma bússola próxima.",
+          "tipo": "conceito",
+          "dificuldade": "facil",
+          "fonte": "UFRGS, Cap. 2, Seção 1 / CEFET/SC, Parte II, Seção 1"
+        },
+        {
+          "id": "eld_fc_002",
+          "frente": "O que enuncia a Lei de Faraday para a indução eletromagnética?",
+          "verso": "Afirma que a variação do fluxo magnético através de uma superfície ou circuito fechado ao longo do tempo gera (induz) nele uma força eletromotriz e, consequentemente, uma corrente elétrica.",
+          "tipo": "conceito",
+          "dificuldade": "medio",
+          "fonte": "UFRGS, Cap. 6, Seção 3 / CEFET/SC, Parte II, Seção 7"
+        },
+        {
+          "id": "eld_fc_003",
+          "frente": "Qual é a fórmula matemática para calcular a intensidade do campo magnético (B) gerado por um fio retilíneo muito longo?",
+          "verso": "O campo magnético é diretamente proporcional à corrente e inversamente proporcional à distância do fio: B = (μ·i) / (2·π·r).",
+          "formula_latex": "B = \\frac{\\mu \\cdot i}{2 \\cdot \\pi \\cdot r}",
+          "tipo": "formula",
+          "dificuldade": "dificil",
+          "fonte": "UFRGS, Cap. 2, Eq. 2.1 / CEFET/SC, Parte II, Seção 4.1"
+        },
+        {
+          "id": "eld_fc_004",
+          "frente": "Como é determinado o sentido da corrente elétrica induzida em uma espira, segundo a Lei de Lenz?",
+          "verso": "A corrente induzida sempre assumirá um sentido tal que o campo magnético gerado por ela se oponha à variação do fluxo magnético que a originou.",
+          "tipo": "conceito",
+          "dificuldade": "medio",
+          "fonte": "UFRGS, Cap. 6, Seção 4"
+        },
+        {
+          "id": "eld_fc_005",
+          "frente": "Por que o funcionamento de um transformador requer necessariamente o uso de Corrente Alternada (CA)?",
+          "verso": "Porque a tensão só é induzida no enrolamento secundário se houver um campo magnético variante no tempo. A corrente contínua cria um campo estático que não gera indução.",
+          "tipo": "aplicacao",
+          "dificuldade": "dificil",
+          "fonte": "CEFET/SC, Parte II, Seção 7.1"
+        }
+      ]
+    },
+    {
+      "id": "eletrostatica",
+      "titulo": "Eletrostática",
+      "descricao": "Cargas elétricas em repouso e as características do campo elétrico",
+      "flashcards": [
+        {
+          "id": "ele_fc_001",
+          "frente": "Existe um 'monopolo elétrico' na natureza da mesma forma que não existe o monopolo magnético?",
+          "verso": "Sim. Ao contrário dos polos de um ímã (que são inseparáveis), as cargas elétricas podem existir isoladamente na natureza, seja como carga apenas positiva (próton) ou apenas negativa (elétron).",
+          "tipo": "conceito",
+          "dificuldade": "facil",
+          "fonte": "UFRGS, Cap. 1, Seção 2.4"
+        },
+        {
+          "id": "ele_fc_002",
+          "frente": "Como as linhas de campo elétrico se comportam entre duas cargas de sinais opostos?",
+          "verso": "Diferente das linhas magnéticas que são fechadas contínuas, as linhas de campo elétrico divergem a partir de cargas positivas (fontes) e convergem em direção às cargas negativas.",
+          "tipo": "conceito",
+          "dificuldade": "facil",
+          "fonte": "UFRGS, Cap. 1, Seção 3.1"
+        },
+        {
+          "id": "ele_fc_003",
+          "frente": "Uma carga elétrica inserida num ambiente onde há fortes campos magnéticos, porém mantida perfeitamente em repouso, sofrerá alguma força?",
+          "verso": "Não. Para que haja força magnética atuando, a carga elétrica precisa estar obrigatoriamente em movimento (velocidade > 0) e cruzar as linhas de campo.",
+          "tipo": "conceito",
+          "dificuldade": "medio",
+          "fonte": "UFRGS, Cap. 3, Seção 1"
+        },
+        {
+          "id": "ele_fc_004",
+          "frente": "O que indica a 'região de influência' teórica de um campo elétrico ou magnético?",
+          "verso": "Embora teoricamente infinita, a região de influência é o espaço ao redor da carga ou ímã onde uma partícula de prova é colocada e sofre a ação de uma força atrativa ou repulsiva de valor não desprezível.",
+          "tipo": "conceito",
+          "dificuldade": "medio",
+          "fonte": "UFRGS, Cap. 1, Seção 3"
+        },
+        {
+          "id": "ele_fc_005",
+          "frente": "Qual a fórmula matemática da Lei de Coulomb, que dita a força elétrica de interação entre duas cargas no vácuo?",
+          "verso": "A intensidade da força elétrica (F) é o produto da constante eletrostática (k) pelos módulos das cargas (q1 e q2), dividido pelo quadrado da distância (d) entre elas: F = k·|q1|·|q2| / d².",
+          "formula_latex": "F = k \\frac{|q_1| \\cdot |q_2|}{d^2}",
+          "tipo": "formula",
+          "dificuldade": "dificil",
+          "fonte": "Conhecimento Externo / Contexto Eletrostático de Analogias do UFRGS"
+        }
+      ]
+    },
+    {
+      "id": "ondas-eletromagneticas",
+      "titulo": "Ondas Eletromagnéticas",
+      "descricao": "Características e propagação de ondas eletromagnéticas",
+      "flashcards": [
+        {
+          "id": "ond_fc_001",
+          "frente": "Do que é fisicamente constituída uma Onda Eletromagnética que viaja pelo espaço?",
+          "verso": "É uma oscilação acoplada de um campo elétrico e um campo magnético perpendiculares entre si, que variam no tempo e se sustentam mutuamente durante a propagação.",
+          "tipo": "conceito",
+          "dificuldade": "facil",
+          "fonte": "CEFET/SC, Parte II, Seção 13"
+        },
+        {
+          "id": "ond_fc_002",
+          "frente": "As ondas eletromagnéticas precisam de um meio material (como o ar ou a água) para conseguir se propagar?",
+          "verso": "Não. Diferentemente das ondas mecânicas (como o som), as ondas eletromagnéticas podem se propagar livremente no vácuo absoluto.",
+          "tipo": "conceito",
+          "dificuldade": "facil",
+          "fonte": "CEFET/SC, Parte II, Seção 13"
+        },
+        {
+          "id": "ond_fc_003",
+          "frente": "A luz do Sol, as ondas do forno micro-ondas e os sinais de Rádio e TV são fenômenos diferentes?",
+          "verso": "Essencialmente não; todos são ondas eletromagnéticas viajando à velocidade da luz. Eles diferem apenas na sua frequência de oscilação e comprimento de onda.",
+          "tipo": "aplicacao",
+          "dificuldade": "medio",
+          "fonte": "CEFET/SC, Parte II, Seção 13 / Conhecimento Externo"
+        },
+        {
+          "id": "ond_fc_004",
+          "frente": "Qual a equação fundamental da onda eletromagnética que relaciona a velocidade da luz (c) com a onda?",
+          "verso": "A velocidade de propagação (c) é igual ao produto do comprimento da onda (λ) pela sua frequência de oscilação (f): c = λ·f.",
+          "formula_latex": "c = \\lambda \\cdot f",
+          "tipo": "formula",
+          "dificuldade": "medio",
+          "fonte": "Conhecimento Externo associado a Ondas Eletromagnéticas"
+        },
+        {
+          "id": "ond_fc_005",
+          "frente": "Segundo as contribuições teóricas de James Clerk Maxwell para o eletromagnetismo, qual a relação de força entre os componentes elétrico e magnético na onda de luz?",
+          "verso": "A intensidade do campo elétrico (E) em uma onda no vácuo é incrivelmente maior que a do campo magnético (B), sendo relacionadas pela velocidade da luz: E = c·B.",
+          "formula_latex": "E = c \\cdot B",
+          "tipo": "formula",
+          "dificuldade": "dificil",
+          "fonte": "Conhecimento Externo sobre a Teoria de Maxwell"
+        }
+      ]
+    }
+  ]
+}
